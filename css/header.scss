@@ -1,4 +1,7 @@
-  
+
+
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 $main-color : #ffc509;
 $text-color : #202332;
 $background : #E7E7EB;
@@ -8,8 +11,6 @@ $green-color: #ACDE8F;
 $inactive-color: #808080;
 $box-shadow: 0 2px 4px rgba(29,93,136,0.05);
 
-/* Google Font Import - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -19,12 +20,7 @@ $box-shadow: 0 2px 4px rgba(29,93,136,0.05);
 
 :root{
     /* ===== Colors ===== */
-    --body-color: #E4E9F7;
-    --sidebar-color: #FFF;
-    --primary-color: #695CFE;
-    --primary-color-light: #F6F5FF;
-    --toggle-color: #DDD;
-    --text-color: #707070;
+
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -35,13 +31,13 @@ $box-shadow: 0 2px 4px rgba(29,93,136,0.05);
 
 body{
     min-height: 100vh;
-    background-color: var($background);
+    background-color: $background;
     transition: var(--tran-05);
 }
 
 ::selection{
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: $red-color;
+    color: $red-color;
 }
 
 body.dark{
@@ -54,16 +50,19 @@ body.dark{
 }
 
 /* ===== Sidebar ===== */
+.sidebar.close img {
+
+}
  .sidebar{
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 250px;
-    padding: 10px 14px;
-    background: var(--sidebar-color);
+    padding: 5px 5px;
+    background: $text-color;
     transition: var(--tran-05);
-    z-index: 100;  
+    z-index: 100;
 
     li {
         height: 50px;
@@ -72,15 +71,51 @@ body.dark{
         align-items: center;
         margin-top: 10px;
     }
+    span {
+        width: 200px;
+    }
+
+    img {
+      padding-top: 1rem;
+    }
+
+    .toggle{
+        position: absolute;
+        top: 50%;
+        right: -25px;
+        transform: translateY(-50%) rotate(180deg);
+        height: 30px;
+        width: 30px;
+        background-color: $main-color;
+        color: var(--sidebar-color);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        cursor: pointer;
+        transition: var(--tran-05);
+    }
+    .batas {
+        margin-top: 1rem;
+    }
 }
 .sidebar.close{
-    width: 88px;
+    width: 20px;
+
+    img {
+        opacity: 0%;
+    }
+
+    .nav-item{
+      opacity: 0%;
+    }
+    .nav-link{
+      opacity: 0%;
+    }
 }
 
 /* ===== Reusable code - Here ===== */
-.sidebar li{
-    
-}
 
 .sidebar header .image,
 .sidebar .icon{
@@ -88,15 +123,7 @@ body.dark{
     border-radius: 6px;
 }
 
-.sidebar .icon{
-    min-width: 60px;
-    border-radius: 6px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-}
+
 
 .sidebar .text,
 .sidebar .icon{
@@ -129,7 +156,7 @@ body.dark{
 }
 header .image-text .name {
     margin-top: 2px;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 600;
 }
 
@@ -150,54 +177,9 @@ header .image-text .profession{
     border-radius: 6px;
 }
 
-.sidebar header .toggle{
-    position: absolute;
-    top: 50%;
-    right: -25px;
-    transform: translateY(-50%) rotate(180deg);
-    height: 25px;
-    width: 25px;
-    background-color: var(--primary-color);
-    color: var(--sidebar-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    cursor: pointer;
-    transition: var(--tran-05);
-}
-
-body.dark .sidebar header .toggle{
-    color: var(--text-color);
-}
 
 .sidebar.close .toggle{
     transform: translateY(-50%) rotate(0deg);
-}
-
-.sidebar .menu{
-    margin-top: 40px;
-}
-
-.sidebar li.search-box{
-    border-radius: 6px;
-    background-color: var(--primary-color-light);
-    cursor: pointer;
-    transition: var(--tran-05);
-}
-
-.sidebar li.search-box input{
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    background-color: var(--primary-color-light);
-    color: var(--text-color);
-    border-radius: 6px;
-    font-size: 17px;
-    font-weight: 500;
-    transition: var(--tran-05);
 }
 .sidebar li a{
     list-style: none;
@@ -213,15 +195,8 @@ body.dark .sidebar header .toggle{
 }
 
 .sidebar li a:hover{
-    background-color: var(--primary-color);
-}
-.sidebar li a:hover .icon,
-.sidebar li a:hover .text{
-    color: var(--sidebar-color);
-}
-body.dark .sidebar li a:hover .icon,
-body.dark .sidebar li a:hover .text{
-    color: var(--text-color);
+    background-color: $background;
+    color: $text-color;
 }
 
 .sidebar .menu-bar{
@@ -233,30 +208,6 @@ body.dark .sidebar li a:hover .text{
 }
 .menu-bar::-webkit-scrollbar{
     display: none;
-}
-.sidebar .menu-bar .mode{
-    border-radius: 6px;
-    background-color: var(--primary-color-light);
-    position: relative;
-    transition: var(--tran-05);
-}
-
-.menu-bar .mode .sun-moon{
-    height: 50px;
-    width: 60px;
-}
-
-.mode .sun-moon i{
-    position: absolute;
-}
-.mode .sun-moon i.sun{
-    opacity: 0;
-}
-body.dark .mode .sun-moon i.sun{
-    opacity: 1;
-}
-body.dark .mode .sun-moon i.moon{
-    opacity: 0;
 }
 
 .menu-bar .bottom-content .toggle-switch{
@@ -292,32 +243,39 @@ body.dark .mode .sun-moon i.moon{
     transition: var(--tran-04);
 }
 
-body.dark .switch::before{
-    left: 20px;
-}
-
-.home{
-    position: absolute;
-    top: 0;
-    top: 0;
-    left: 250px;
-    height: 100vh;
-    width: calc(100% - 250px);
-    background-color: var(--body-color);
-    transition: var(--tran-05);
-}
 .home .text{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
-    color: var(--text-color);
+    color: $background;
     padding: 12px 60px;
 }
 
-.sidebar.close ~ .home{
-    left: 78px;
-    height: 100vh;
-    width: calc(100% - 78px);
-}
-body.dark .home .text{
-    color: var(--text-color);
+// style for navbar margin-top
+.content {
+    background-color: white;
+    padding-left: 20px;
+    display: flex;
+    height: 50px;
+    position: relative;
+    width: 100% auto;
+i {
+    
+    position: relative;
+    top: 5px;
+    left: 900px;
+    }
+
+  img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  
+  }
+  li {
+    top: 5px;
+    left: 910px;
+    a {
+        color: $text-color;
+    }
+  }
 }
