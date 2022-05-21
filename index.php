@@ -16,7 +16,11 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
      </li>
-
 </div>
+
+     <!-- konten di sematkan -->
+  
+     <?php include "content/domestic.php"; ?>
+    <!-- akhir konten di sematkan -->
 
 <?php include "layout/footer.php"?>

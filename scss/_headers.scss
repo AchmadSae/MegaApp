@@ -1,23 +1,4 @@
-
-
-/* Google Font Import - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-$main-color : #ffc509;
-$text-color : #202332;
-$background : #E7E7EB;
-$red-color: #FF8E8E;
-$border-color: #707070;
-$green-color: #ACDE8F;
-$inactive-color: #808080;
-$box-shadow: 0 2px 4px rgba(29,93,136,0.05);
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
+@import url(_var);
 :root{
     /* ===== Colors ===== */
 
@@ -251,7 +232,7 @@ header .image-text .profession{
 }
 
 // style for navbar margin-top
-.content {
+.content{
     background-color: white;
     padding-left: 20px;
     display: flex;
@@ -259,7 +240,7 @@ header .image-text .profession{
     position: relative;
     width: 100% auto;
 i {
-    
+
     position: relative;
     top: 5px;
     left: 900px;
@@ -269,7 +250,7 @@ i {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-  
+
   }
   li {
     top: 5px;
@@ -278,4 +259,22 @@ i {
         color: $text-color;
     }
   }
+}
+
+
+.domestic-sales {
+    padding: 25px;
+
+    #table-sales{
+        background-color: $background;
+        width: 100%;
+        display: inline;
+        th {
+            font-size:15px;
+            opacity: 50%;
+        }
+        td {
+            font-size: 12px;
+        }
+    }
 }

@@ -1,0 +1,53 @@
+@import "main";
+@import "_var";
+.domestic-sales {
+    margin-left: 20px;
+    .title-step {
+        display: inline-flex;
+        #step{
+            font-weight: 400;
+            color: $text-color;
+        }
+        a {
+            background-color: $text-color;
+            color: white;
+            font-size: 12px;
+            margin-left: 600px;
+            margin-bottom: 10px;
+            height: 30px;
+            i{
+                color: white;
+            }
+        }
+    }
+
+    #table-sales{
+        display: inline-flex;
+        .table-sales {
+            width: 1000px;
+            background-color: white;
+            
+            th{
+                opacity: 50%;
+            }
+            td{
+                font-size: 12px;
+            }
+            a{
+                background-color: $btn-status1;
+            }
+        }
+        .operation-sales{
+            background-color: white;
+            margin-left: 15px;
+            width: 300px;
+            padding: 10px;
+            margin-right: 0;
+            p{
+                opacity: 50%;
+
+            }
+            
+        }
+    }
+}
