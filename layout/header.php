@@ -1,9 +1,4 @@
-<?php
 
-    session_start();
-    include "./php/main.php";
-
-    ?>
 <head>
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +15,34 @@
     <!--<title>Dashboard Sidebar Menu</title>-->
 </head>
 <body>
+    <!-- top-bar -->
+    <div class="row">
+        <div class="col s12 top-bar">
+            <div class="title">
+                <h1>Dashboard</h1>
+            </div>
+            
+            <div class="account">
+                 <i href="">
+                My Name <img src="images/yuna.jpg" alt=""></i>
+            
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </div>
+            
+        </div>
+
+    </div>
+        <!-- top-bar -->
+
     <nav class="sidebar close">
         <header>
             <div class="image-text">
@@ -36,14 +59,14 @@
             <div class="menu">
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="index.php">
                             <i class="material-icons">home</i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="report.php">
                             <i class="material-icons">assignment</i>
                             <span class="text nav-text">Report</span>
                         </a>
@@ -51,12 +74,12 @@
 
 
                     <li class="nav-link nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="/" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class='material-icons'>store</i>
                             <span class="text nav-text">Sales</span>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="domestic_sale.php">Domestic Sale</a></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>

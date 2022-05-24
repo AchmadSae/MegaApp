@@ -1,53 +1,152 @@
-@import "main";
+
 @import "_var";
 .domestic-sales {
-    margin-left: 20px;
+    padding: 25px;
     .title-step {
         display: inline-flex;
-        #step{
-            font-weight: 400;
-            color: $text-color;
-        }
-        a {
-            background-color: $text-color;
-            color: white;
-            font-size: 12px;
-            margin-left: 600px;
-            margin-bottom: 10px;
-            height: 30px;
-            i{
+        .btn-add {
+            
+            padding-left: 730px;
+            a {
+                background-color: $text-color;
                 color: white;
+                font-size: 12px;
+                height: 30px;
+                i{
+                    color: white;
+                }
             }
+
         }
     }
 
     #table-sales{
-        display: inline-flex;
         .table-sales {
             width: 1000px;
             background-color: white;
+            cursor: pointer;
             
             th{
-                opacity: 50%;
+                opacity: 70%;
             }
             td{
-                font-size: 12px;
+                font-size: 10px;
             }
             a{
                 background-color: $btn-status1;
             }
         }
-        .operation-sales{
-            background-color: white;
-            margin-left: 15px;
-            width: 300px;
-            padding: 10px;
-            margin-right: 0;
-            p{
-                opacity: 50%;
-
-            }
-            
+       
+    }
+    .operation-sales{
+        background-color: white;
+        width: 200px;
+        padding: 10px;
+        margin-right: 0;
+        label{
+            font-size: 12px;
         }
+        ul {
+            font-size: 10px;
+        }
+
+        p {
+            opacity: 70%;
+        }
+        span {
+            font-size: 10px;
+        }
+        
     }
 }
+ // style untuk detail sale
+
+ .detail-sale {
+     background-color: $background;
+     margin: 30px;
+     .invoice {
+            .detail-col {
+                padding: 10px;
+                background-color: white;
+                .detail {
+                    display: inline-flex;
+                    text-align: left;
+                    ul {
+                        font-size: 10px;
+                    }
+                    .l {
+                        opacity: 70%;
+                    }
+                    .r{
+                        margin-left: 20px;
+                    }
+                }
+            }
+            .customer-col {
+                padding: 10px;
+                background-color: white;
+                .detail {
+                    display: inline-flex;
+                    text-align: left;
+                    .l {
+                        opacity: 70%;
+                    }
+                    .r{
+                        margin-left: 20px;
+                    }
+                    ul {
+                        font-size: 10px;
+                    }
+                }
+            }
+            .recepient-col {
+                padding: 10px;
+                background-color: white;
+                .detail {
+                    display: inline-flex;
+                    text-align: left;
+                    .l {
+                        opacity: 70%;
+                    }
+                    .r{
+                        margin-left: 20px;
+                    }
+                    ul {
+                        font-size: 10px;
+                    }
+                }
+            }
+     }
+     .table-invoice {
+        margin-right: 10px;
+        background-color: white;
+         .tables{
+             padding: 10px;
+             width: 700px;
+             th {
+                 opacity: 70%;
+             }
+             td{
+                 font-size: 10px;
+             }
+         }
+     }
+     .total {
+         background-color: white;
+         padding: 10px;
+         span {
+             opacity: 70%;
+             font-size: 10px;
+         }
+         .edit {
+             background-color: $text-color;
+             color: white;
+         }
+         .hapus {
+             background-color: $main-color;
+             color: white;
+         }
+     }
+ }
+
+ 

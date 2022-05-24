@@ -31,9 +31,6 @@ body.dark{
 }
 
 /* ===== Sidebar ===== */
-.sidebar.close img {
-
-}
  .sidebar{
     position: fixed;
     top: 0;
@@ -232,49 +229,34 @@ header .image-text .profession{
 }
 
 // style for navbar margin-top
-.content{
+.top-bar{
     background-color: white;
-    padding-left: 20px;
-    display: flex;
-    height: 50px;
-    position: relative;
-    width: 100% auto;
-i {
-
-    position: relative;
-    top: 5px;
-    left: 900px;
+    display: inline-flex;
+    .title {
+        padding-left: 40px;
+    }
+    .account {
+        padding-left: 850px;
+        display: inline-flex;
+        i {
+            position: relative;
+            top: 5px;
+            }
+        
+          img {
+            width: 40px;
+            border-radius: 50%;
+        
+          }
+          li {
+            top: 5px;
+            a {
+                color: $text-color;
+            }
+          }
     }
 
-  img {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-
-  }
-  li {
-    top: 5px;
-    left: 910px;
-    a {
-        color: $text-color;
-    }
-  }
 }
 
 
-.domestic-sales {
-    padding: 25px;
 
-    #table-sales{
-        background-color: $background;
-        width: 100%;
-        display: inline;
-        th {
-            font-size:15px;
-            opacity: 50%;
-        }
-        td {
-            font-size: 12px;
-        }
-    }
-}

@@ -11,8 +11,3 @@ toggle.addEventListener("click" , () =>{
     sidebar.classList.toggle("close");
 })
 
-
-//dropdown
-  // Or with jQuery
-
-  $('#dropdown-trigger').dropdown();

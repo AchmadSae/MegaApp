@@ -7,7 +7,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -58,6 +58,7 @@ body.dark {
   transition: var(--tran-05);
   z-index: 100;
 }
+
 .sidebar li {
   height: 50px;
   list-style: none;
@@ -69,12 +70,15 @@ body.dark {
           align-items: center;
   margin-top: 10px;
 }
+
 .sidebar span {
   width: 200px;
 }
+
 .sidebar img {
   padding-top: 1rem;
 }
+
 .sidebar .toggle {
   position: absolute;
   top: 50%;
@@ -100,6 +104,7 @@ body.dark {
   -webkit-transition: var(--tran-05);
   transition: var(--tran-05);
 }
+
 .sidebar .batas {
   margin-top: 1rem;
 }
@@ -107,12 +112,15 @@ body.dark {
 .sidebar.close {
   width: 20px;
 }
+
 .sidebar.close img {
   opacity: 0%;
 }
+
 .sidebar.close .nav-item {
   opacity: 0%;
 }
+
 .sidebar.close .nav-link {
   opacity: 0%;
 }
@@ -271,7 +279,7 @@ header .image-text .profession {
 }
 
 .switch::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 15px;
   width: 15px;
@@ -292,46 +300,38 @@ header .image-text .profession {
   padding: 12px 60px;
 }
 
-.content {
+.top-bar {
   background-color: white;
-  padding-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 50px;
-  position: relative;
-  width: 100% auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
-.content i {
+
+.top-bar .title {
+  padding-left: 40px;
+}
+
+.top-bar .account {
+  padding-left: 850px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.top-bar .account i {
   position: relative;
   top: 5px;
-  left: 900px;
 }
-.content img {
-  height: 40px;
+
+.top-bar .account img {
   width: 40px;
   border-radius: 50%;
 }
-.content li {
+
+.top-bar .account li {
   top: 5px;
-  left: 910px;
-}
-.content li a {
-  color: #202332;
 }
 
-.domestic-sales {
-  padding: 25px;
-}
-.domestic-sales #table-sales {
-  background-color: #E7E7EB;
-  width: 100%;
-  display: inline;
-}
-.domestic-sales #table-sales th {
-  font-size: 15px;
-  opacity: 50%;
-}
-.domestic-sales #table-sales td {
-  font-size: 12px;
+.top-bar .account li a {
+  color: #202332;
 }
