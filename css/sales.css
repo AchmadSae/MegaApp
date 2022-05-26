@@ -157,6 +157,7 @@
 }
 
 .detail-sale .table-invoice .tables td {
+  cursor: pointer;
   font-size: 10px;
 }
 

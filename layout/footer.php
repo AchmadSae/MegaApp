@@ -10,6 +10,16 @@
      <!-- Compiled and minified JavaScript -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/header.js"></script>
-    <script src="js/sales.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</html>
+    <script>
+        //dropdwon search to filter data
+    document.addEventListener('DOMContentLoaded', function() {
+    var elem = document.querySelector(".dropdown-trigger");
+        var instance = M.Dropdown.init(elem, {
+            coverTriger : false,
+            closeOnClick : true
+        });
+    });
+
+    </script>
+    </html>
