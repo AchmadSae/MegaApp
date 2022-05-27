@@ -232,26 +232,31 @@ header .image-text .profession{
 .top-bar{
     background-color: white;
     display: inline-flex;
-    .title {
-        padding-left: 40px;
-    }
+    height: 70px;
     .account {
-        padding-left: 850px;
+        padding-left: 1000px;
         display: inline-flex;
-        i {
-            position: relative;
-            top: 5px;
+        span {
+            margin-top: 30px;
+            opacity: 70%;
+            font-weight: bold;
+            font-style: italic;
             }
         
           img {
             width: 40px;
             border-radius: 50%;
-        
           }
+          img:hover {
+              width: 45px;
+              text-shadow: 2px 2px black;
+              transition: width 0.5s;
+          }
+          
           li {
-            top: 5px;
+              padding-left: 10px;
             a {
-                color: $text-color;
+                color:$text-color;
             }
           }
     }

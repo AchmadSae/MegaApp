@@ -305,22 +305,21 @@ header .image-text .profession {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-}
-
-.top-bar .title {
-  padding-left: 40px;
+  height: 70px;
 }
 
 .top-bar .account {
-  padding-left: 850px;
+  padding-left: 1000px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-.top-bar .account i {
-  position: relative;
-  top: 5px;
+.top-bar .account span {
+  margin-top: 30px;
+  opacity: 70%;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .top-bar .account img {
@@ -328,8 +327,15 @@ header .image-text .profession {
   border-radius: 50%;
 }
 
+.top-bar .account img:hover {
+  width: 45px;
+  text-shadow: 2px 2px black;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
 .top-bar .account li {
-  top: 5px;
+  padding-left: 10px;
 }
 
 .top-bar .account li a {

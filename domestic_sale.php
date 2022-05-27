@@ -1,7 +1,7 @@
 <?php 
   include "layout/header.php";
 ?>
-
+<!-- title  -->
 <section class="domestic-sales">
   <div class="row">
        <div class="col s12 title-step">
@@ -87,13 +87,9 @@
                       <span>Descending ( Z - A )</span>
                     </label>
                   </p>
-
-
                   </form>
           </div>
         </div>
-
-
 </section>
 
 <?php 

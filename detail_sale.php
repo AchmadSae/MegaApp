@@ -1,7 +1,7 @@
 <?php 
     include "layout/header.php";
 ?>
-
+<!-- title  -->
 <section class="detail-sale mt-4">
     <div class="title-step">
            <h4>Domestic Sale</h4>
@@ -184,6 +184,8 @@
                         </div>
                 </div>
             <!-- pop up untuk detail product -->
+
+            <!-- list data di table  -->
         <table class="responsive-table striped tables">
           <thead>
             <tr>
@@ -201,7 +203,7 @@
           <tbody>
             <tr>
               <td data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="myPopUp">
-                  707 IRON stand hanger ( A tipe )
+                  BONO SOFA 2P
                 </td>
               <td>Metal</td>
               <td>Black</td>
@@ -246,13 +248,7 @@
                 </div>
         </div>
     </div>
-
-
 </section>
-
-
-
-
 <?php 
     include "layout/footer.php";
  ?>

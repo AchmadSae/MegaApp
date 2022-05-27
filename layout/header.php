@@ -17,24 +17,21 @@
 <body>
     <!-- top-bar -->
     <div class="row">
-        <div class="col s12 top-bar">
-            <div class="title">
-                <h1>Dashboard</h1>
-            </div>
-            
+        <div class="col s12 top-bar">            
             <div class="account">
-                 <i href="">
-                My Name <img src="images/yuna.jpg" alt=""></i>
+                <span>
+                    Achmad Saepudin
+                </span>
             
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="">
+                    <i href="">
+                        <img src="images/yuna.jpg" alt=""></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                     </ul>
                 </li>
             </div>
             
