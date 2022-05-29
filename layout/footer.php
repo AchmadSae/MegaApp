@@ -15,11 +15,14 @@
         //dropdwon search to filter data
     document.addEventListener('DOMContentLoaded', function() {
     var elem = document.querySelector(".dropdown-trigger");
+    var elems = document.querySelectorAll(".sidenav");
         var instance = M.Dropdown.init(elem, {
             coverTriger : false,
             closeOnClick : true
         });
+        var instances = M.Sidenav.init(elems, {
+        
+         });
     });
-
-    </script>
+     </script>
     </html>

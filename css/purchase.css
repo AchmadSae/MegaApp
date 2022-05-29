@@ -1,200 +1,206 @@
 /* Google Font Import - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
-.domestic-sales {
+.domestic-purchase {
   font-family: 'Nanum Myeongjo', serif;
   padding: 25px;
   background-color: #E7E7EB;
   height: 100% auto;
 }
 
-.domestic-sales .title-step {
+.domestic-purchase .title-step {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-.domestic-sales .title-step .btn-add {
+.domestic-purchase .title-step .btn-add {
   position: absolute;
   right: 20px;
 }
 
-.domestic-sales .title-step .btn-add a {
+.domestic-purchase .title-step .btn-add a {
   background-color: #202332;
   color: white;
   font-size: 12px;
   height: 30px;
 }
 
-.domestic-sales .title-step .btn-add a i {
+.domestic-purchase .title-step .btn-add a i {
   color: white;
 }
 
-.domestic-sales #table-sales {
+.domestic-purchase #table-purchase {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-.domestic-sales #table-sales .table-sales {
+.domestic-purchase #table-purchase .table-purchase {
   width: 100%;
   background-color: white;
   cursor: pointer;
 }
 
-.domestic-sales #table-sales .table-sales th {
+.domestic-purchase #table-purchase .table-purchase th {
   opacity: 70%;
 }
 
-.domestic-sales #table-sales .table-sales td {
+.domestic-purchase #table-purchase .table-purchase td {
   font-size: 10px;
 }
 
-.domestic-sales #table-sales .table-sales a {
+.domestic-purchase #table-purchase .table-purchase a {
   background-color: #a58d3d;
 }
 
-.domestic-sales .operation-sales {
+.domestic-purchase .operation-purchase {
   background-color: white;
   width: 200px;
   padding: 10px;
   margin-right: 0;
 }
 
-.domestic-sales .operation-sales label {
+.domestic-purchase .operation-purchase label {
   font-size: 12px;
 }
 
-.domestic-sales .operation-sales ul {
+.domestic-purchase .operation-purchase ul {
   font-size: 10px;
 }
 
-.domestic-sales .operation-sales p {
+.domestic-purchase .operation-purchase p {
   opacity: 70%;
 }
 
-.domestic-sales .operation-sales span {
+.domestic-purchase .operation-purchase span {
   font-size: 10px;
 }
 
-.detail-sale {
+.detail-purchase {
   font-family: 'Nanum Myeongjo', serif;
   background-color: #E7E7EB;
   padding: 25px;
   height: 100% auto;
 }
 
-.detail-sale .invoice {
+.detail-purchase .invoice {
   max-width: 300px;
 }
 
-.detail-sale .invoice .detail-col {
+.detail-purchase .invoice .detail-col {
   padding: 10px;
   background-color: white;
 }
 
-.detail-sale .invoice .detail-col .detail {
+.detail-purchase .invoice .detail-col .inv {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.detail-purchase .invoice .detail-col .detail {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   text-align: left;
 }
 
-.detail-sale .invoice .detail-col .detail ul {
+.detail-purchase .invoice .detail-col .detail ul {
   font-size: 10px;
 }
 
-.detail-sale .invoice .detail-col .detail .l {
+.detail-purchase .invoice .detail-col .detail .l {
   opacity: 70%;
 }
 
-.detail-sale .invoice .detail-col .detail .r {
+.detail-purchase .invoice .detail-col .detail .r {
   margin-left: 20px;
 }
 
-.detail-sale .invoice .customer-col {
+.detail-purchase .invoice .recepient-col {
   padding: 10px;
   background-color: white;
 }
 
-.detail-sale .invoice .customer-col .detail {
+.detail-purchase .invoice .recepient-col .detail {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   text-align: left;
 }
 
-.detail-sale .invoice .customer-col .detail .l {
+.detail-purchase .invoice .recepient-col .detail .l {
   opacity: 70%;
 }
 
-.detail-sale .invoice .customer-col .detail .r {
+.detail-purchase .invoice .recepient-col .detail .r {
   margin-left: 20px;
 }
 
-.detail-sale .invoice .customer-col .detail ul {
+.detail-purchase .invoice .recepient-col .detail ul {
   font-size: 10px;
 }
 
-.detail-sale .invoice .recepient-col {
+.detail-purchase .invoice .vendor-col {
   padding: 10px;
   background-color: white;
 }
 
-.detail-sale .invoice .recepient-col .detail {
+.detail-purchase .invoice .vendor-col .detail {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   text-align: left;
 }
 
-.detail-sale .invoice .recepient-col .detail .l {
+.detail-purchase .invoice .vendor-col .detail .l {
   opacity: 70%;
 }
 
-.detail-sale .invoice .recepient-col .detail .r {
+.detail-purchase .invoice .vendor-col .detail .r {
   margin-left: 20px;
 }
 
-.detail-sale .invoice .recepient-col .detail ul {
+.detail-purchase .invoice .vendor-col .detail ul {
   font-size: 10px;
 }
 
-.detail-sale .table-invoice {
+.detail-purchase .table-purchase {
   margin-right: 10px;
   background-color: white;
 }
 
-.detail-sale .table-invoice .tables {
+.detail-purchase .table-purchase .tables {
   padding: 10px;
   width: 100%;
 }
 
-.detail-sale .table-invoice .tables th {
+.detail-purchase .table-purchase .tables th {
   opacity: 70%;
 }
 
-.detail-sale .table-invoice .tables td {
+.detail-purchase .table-purchase .tables td {
   cursor: pointer;
   font-size: 10px;
 }
 
-.detail-sale .total {
+.detail-purchase .total {
   background-color: white;
   padding: 10px;
   max-width: 200px;
 }
 
-.detail-sale .total span {
+.detail-purchase .total span {
   opacity: 70%;
   font-size: 10px;
 }
 
-.detail-sale .total .edit {
+.detail-purchase .total .edit {
   background-color: #202332;
   color: white;
 }
 
-.detail-sale .total .hapus {
+.detail-purchase .total .hapus {
   background-color: #ffc509;
   color: white;
 }

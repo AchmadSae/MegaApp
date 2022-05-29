@@ -2,7 +2,7 @@
 @import "_var";
 
 
-.domestic-sales {
+.domestic-purchase {
     font-family: 'Nanum Myeongjo', serif;
     padding: 25px;
     background-color: $background;
@@ -25,9 +25,9 @@
         }
     }
 
-    #table-sales{
+    #table-purchase{
         display: inline-flex;
-        .table-sales {
+        .table-purchase {
             width: 100%;
             background-color: white;
             cursor: pointer;
@@ -44,7 +44,7 @@
         }
        
     }
-    .operation-sales{
+    .operation-purchase{
         background-color: white;
         width: 200px;
         padding: 10px;
@@ -67,7 +67,7 @@
 }
  // style untuk detail sale
 
- .detail-sale {
+ .detail-purchase {
     font-family: 'Nanum Myeongjo', serif;
      background-color: $background;
      padding: 25px;
@@ -77,34 +77,20 @@
             .detail-col {
                 padding: 10px;
                 background-color: white;
-                .detail {
+                .inv {
                     display: inline-flex;
-                    text-align: left;
-                    ul {
-                        font-size: 10px;
-                    }
-                    .l {
-                        opacity: 70%;
-                    }
-                    .r{
-                        margin-left: 20px;
-                    }
                 }
-            }
-            .customer-col {
-                padding: 10px;
-                background-color: white;
                 .detail {
                     display: inline-flex;
                     text-align: left;
+                    ul {
+                        font-size: 10px;
+                    }
                     .l {
                         opacity: 70%;
                     }
                     .r{
                         margin-left: 20px;
-                    }
-                    ul {
-                        font-size: 10px;
                     }
                 }
             }
@@ -125,8 +111,25 @@
                     }
                 }
             }
+            .vendor-col {
+                padding: 10px;
+                background-color: white;
+                .detail {
+                    display: inline-flex;
+                    text-align: left;
+                    .l {
+                        opacity: 70%;
+                    }
+                    .r{
+                        margin-left: 20px;
+                    }
+                    ul {
+                        font-size: 10px;
+                    }
+                }
+            }
      }
-     .table-invoice {
+     .table-purchase {
         margin-right: 10px;
         background-color: white;
          .tables{

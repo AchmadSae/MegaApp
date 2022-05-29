@@ -2,7 +2,7 @@
     include "layout/header.php";
 ?>
 <!-- title  -->
-<section class="detail-sale mt-4">
+<section class="detail-sale mt-5">
     <div class="title-step">
            <h4>Domestic Sale</h4>
             </div>      
@@ -78,7 +78,7 @@
                             <div class="modal-body" style="font-size:10px;">
                                 <div class="row">
                                     <div class="col md-6 ">
-                                    <img src="images/bono.jpg" alt="" srcset="" style="width: 100%; height: 120px;">
+                                    <img src="images/bono.jpg" alt="" srcset="" style="width: 100%; height: 150px;">
                                        <div style="display: inline-flex;">
                                        <div class="left" style="opacity: 70%;font-size:10px;">
                                             <p>ID</p>
@@ -120,10 +120,10 @@
                                             <p>Rp.2,412,121</p>
                                         </div>
                                        </div>
-                                       <div class="btn">
-                                       <button type="button" class="btn btn-primary disabled" style="width: 80px;  height:20px; font-size: 8px;">flash sale</button>
-                                       <button type="button" class="btn btn-primary disabled" style="width: 80px;  height:20px; font-size: 8px;">flash sale</button>
-                                       <button type="button" class="btn btn-primary disabled" style="width:80px;  height:20px; font-size:8px;">flash sale</button>
+                                       <div style="display:inline-flex;">
+                                             <span class="new badge" data-badge-caption="">Flash Sale</span>
+                                             <span class="new badge" data-badge-caption="">Flash Sale</span>
+                                             <span class="new badge" data-badge-caption="">Flash Sale</span>
                                         </div>
                                     </div>
                                     <div class="col md-6">
@@ -186,7 +186,7 @@
             <!-- pop up untuk detail product -->
 
             <!-- list data di table  -->
-        <table class="responsive-table striped tables">
+        <table class="responsive-table striped tables" style="overflow-x:auto;">
           <thead>
             <tr>
                 <th>Name</th>
@@ -205,8 +205,8 @@
               <td data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="myPopUp">
                   BONO SOFA 2P
                 </td>
-              <td>Metal</td>
-              <td>Black</td>
+              <td>Fabric</td>
+              <td>Gray</td>
               <td>112</td>
               <td>Rp.350,000</td>
               <td>Rp.165,000</td>
