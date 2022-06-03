@@ -1,0 +1,32 @@
+@import "_var";
+
+#catalogue {
+    .add-product {
+        display: inline-flex;
+        position: absolute;
+
+        a {
+            background-color: $text-color;
+            color: white;
+            right: 50px;
+        }
+    }
+
+    .catalogue-content {
+        padding: 10px;
+
+        .card {
+            min-width: 1000px;
+
+            img {
+                max-width: 300px;
+            }
+
+        }
+    }
+
+    .search-catalogue {
+        min-width: 300px;
+        background-color: aqua;
+    }
+}

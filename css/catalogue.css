@@ -1,0 +1,31 @@
+/* Google Font Import - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+#catalogue .add-product {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+}
+
+#catalogue .add-product a {
+  background-color: #202332;
+  color: white;
+  right: 50px;
+}
+
+#catalogue .catalogue-content {
+  padding: 10px;
+}
+
+#catalogue .catalogue-content .card {
+  min-width: 1000px;
+}
+
+#catalogue .catalogue-content .card img {
+  max-width: 300px;
+}
+
+#catalogue .search-catalogue {
+  min-width: 300px;
+  background-color: aqua;
+}

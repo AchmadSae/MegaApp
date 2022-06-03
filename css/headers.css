@@ -35,17 +35,17 @@ body {
   transition: 0.3s;
   background: #202332;
   border: none;
-  padding-left: 20px;
   cursor: pointer;
-}
-
-#mySide .side-item p {
-  padding-left: 22px;
 }
 
 #mySide .side-item:hover {
   background: #ffc509;
   color: #202332;
+}
+
+#mySide .side-item a {
+  color: white;
+  text-decoration: none;
 }
 
 #mySide .side-sub-item {
@@ -54,6 +54,11 @@ body {
   color: #202332;
   padding: 0;
   margin: 0;
+}
+
+#mySide .side-sub-item a {
+  color: grey;
+  text-decoration: none;
 }
 
 #mySide .collapsible {

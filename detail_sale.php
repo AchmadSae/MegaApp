@@ -176,7 +176,7 @@
                                 </div>    
 
                             </div>
-                            <!-- deksripsi produk  -->
+                            <!--akhir deksripsi produk  -->
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             </div>

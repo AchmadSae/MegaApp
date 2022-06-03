@@ -31,16 +31,16 @@ body{
             transition: 0.3s;
             background:$text-color;
             border:none;
-            padding-left: 20px;
             cursor: pointer;
-            p {
-                padding-left: 22px;
-            }
             &:hover{
 
                 background: $main-color;
                 color: $text-color;
 
+            }
+            a{
+                color: white;
+                text-decoration: none;
             }
         }
 
@@ -50,6 +50,10 @@ body{
             color: $text-color;
             padding: 0;
             margin: 0;
+            a{
+                color: $gray-color;
+                text-decoration: none;
+            }
         }
 
         .collapsible{
