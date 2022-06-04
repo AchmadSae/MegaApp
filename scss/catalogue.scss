@@ -3,30 +3,107 @@
 #catalogue {
     .add-product {
         display: inline-flex;
-        position: absolute;
-
+        h4 {
+            margin-left: 20px;
+        }
         a {
+            position: absolute;
             background-color: $text-color;
             color: white;
-            right: 50px;
+            right: 20px;
         }
     }
 
+    // style card 
     .catalogue-content {
         padding: 10px;
+        
+        .cards-row {
+            display: inline-flex;
 
-        .card {
-            min-width: 1000px;
+            .card {
+                font-size: 10px;
+                max-width: 200px;
+                background-color: white;
+                padding: 12px;
+                margin: 2px;
 
-            img {
-                max-width: 300px;
+                .card-title {
+                    text-shadow: 0 0 10px $main-color;
+                    position: absolute;
+                    font-weight: bold;
+                    font-size: 10px;
+                    color: $main-color;
+                    margin-bottom: 150px;
+                }
+
+                .card-content {
+                    padding: 0;
+
+                    .color-type {
+                        background-color: $text-color;
+                        color: white;
+                        padding-left: 10px;
+                    }
+
+                    .name {
+                        padding-left: 10px;
+
+                        span {
+                            font-weight: bold;
+
+                        }
+
+                        p {
+                            opacity: 70%;
+                        }
+
+                        .bahan {
+                            width: 50px;
+                            border-radius: 10px;
+                            color: white;
+                            text-align: center;
+                            background-color: $text-color;
+                        }
+                    }
+
+                    .prices {
+                        display: inline-flex;
+                        padding: 10px;
+
+                        .price {
+                            font-weight: bold;
+                        }
+
+                        .price-coret {
+                            opacity: 50%;
+                            text-decoration: line-through;
+                        }
+                    }
+
+                    .stock {
+                        background-color: $text-color;
+                        color: white;
+                        border-radius: 10px;
+                        width: 50px;
+                        margin-left: 60px;
+                        text-align: center;
+                    }
+                }
+
+                .card-action {
+                    text-decoration: none;
+                    color: $text-color;
+                    font-weight: b;
+                }
+
             }
-
         }
     }
 
     .search-catalogue {
-        min-width: 300px;
-        background-color: aqua;
+        margin-right: 5px;
+        min-width: 200px;
+        background-color: white;
     }
 }
