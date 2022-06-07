@@ -8,12 +8,16 @@
     </link>
     <!-- CSSbootstrap only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
     <!----======== CSS ======== -->
     <link type="text/css" rel="stylesheet" href="css/headers.css">
     <link type="text/css" rel="stylesheet" href="css/sales.css">
     <link type="text/css" rel="stylesheet" href="css/purchase.css">
     <link type="text/css" rel="stylesheet" href="css/catalogue.css">
+    <link type="text/css" rel="stylesheet" href="css/detail_catalogue.css">
     <!--<title>Dashboard Sidebar Menu</title>-->
 </head>
 
@@ -30,7 +34,7 @@
         </li>
 
         <li class="col s12 side-item" href=""><a href="domestic_sale.php">Domestic Sales</a> </li>
-        <li class="col s12 side-item" href=""><a href="domestic_sale.php">Catalogue</a></li>
+        <li class="col s12 side-item" href=""><a href="catalogue.php">Catalogue</a></li>
         <li class="col s12 side-item" href=""><a href="domestic_sale.php">Delivery</a></li>
 
         <li>

@@ -92,9 +92,13 @@
                 }
 
                 .card-action {
-                    text-decoration: none;
-                    color: $text-color;
-                    font-weight: b;
+
+                    text-align: center;
+                    a {
+                        text-decoration: none;
+                        font-weight: bold;
+
+                    }
                 }
 
             }

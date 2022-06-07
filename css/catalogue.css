@@ -100,9 +100,12 @@
 }
 
 #catalogue .catalogue-content .cards-row .card .card-action {
+  text-align: center;
+}
+
+#catalogue .catalogue-content .cards-row .card .card-action a {
   text-decoration: none;
-  color: #202332;
-  font-weight: b;
+  font-weight: bold;
 }
 
 #catalogue .search-catalogue {
