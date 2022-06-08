@@ -1,95 +1,76 @@
 /* Google Font Import - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
-.domestic-sales {
+#domestic-sales {
   font-family: 'Poppins', sans-serif;
-  padding: 25px;
-  background-color: #E7E7EB;
-  height: 100% auto;
 }
 
-.domestic-sales .title-step {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.domestic-sales .title-step .btn-add {
+#domestic-sales .title-step .btn {
+  margin-top: 2px;
   position: absolute;
-  right: 20px;
-}
-
-.domestic-sales .title-step .btn-add a {
+  right: 250px;
   background-color: #202332;
   color: white;
   font-size: 12px;
-  height: 30px;
 }
 
-.domestic-sales .title-step .btn-add a i {
-  color: white;
-}
-
-.domestic-sales #table-sales {
+#domestic-sales #table-sales {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin-top: 25px;
 }
 
-.domestic-sales #table-sales .table-sales {
-  width: 100%;
+#domestic-sales #table-sales .table-sales {
   background-color: white;
   cursor: pointer;
 }
 
-.domestic-sales #table-sales .table-sales th {
+#domestic-sales #table-sales .table-sales th {
   opacity: 70%;
 }
 
-.domestic-sales #table-sales .table-sales td {
+#domestic-sales #table-sales .table-sales td {
   font-size: 10px;
 }
 
-.domestic-sales #table-sales .table-sales a {
+#domestic-sales #table-sales .table-sales a {
   background-color: #a58d3d;
 }
 
-.domestic-sales .operation-sales {
+#domestic-sales .operation-sales {
   background-color: white;
-  width: 200px;
   padding: 10px;
-  margin-right: 0;
+  margin-top: 25px;
 }
 
-.domestic-sales .operation-sales label {
+#domestic-sales .operation-sales label {
   font-size: 12px;
 }
 
-.domestic-sales .operation-sales ul {
+#domestic-sales .operation-sales ul {
   font-size: 10px;
 }
 
-.domestic-sales .operation-sales p {
+#domestic-sales .operation-sales p {
   opacity: 70%;
 }
 
-.domestic-sales .operation-sales span {
+#domestic-sales .operation-sales span {
   font-size: 10px;
 }
 
 .detail-sale {
-  font-family: 'Nanum Myeongjo', serif;
-  background-color: #E7E7EB;
-  padding: 25px;
-  height: 100% auto;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 35px;
 }
 
 .detail-sale .invoice {
-  max-width: 300px;
+  background-color: white;
+  height: 100vh;
 }
 
 .detail-sale .invoice .detail-col {
   padding: 10px;
-  background-color: white;
 }
 
 .detail-sale .invoice .detail-col .detail {
@@ -113,7 +94,6 @@
 
 .detail-sale .invoice .customer-col {
   padding: 10px;
-  background-color: white;
 }
 
 .detail-sale .invoice .customer-col .detail {
@@ -137,7 +117,6 @@
 
 .detail-sale .invoice .recepient-col {
   padding: 10px;
-  background-color: white;
 }
 
 .detail-sale .invoice .recepient-col .detail {
@@ -160,13 +139,81 @@
 }
 
 .detail-sale .table-invoice {
-  margin-right: 10px;
   background-color: white;
+  min-width: 500px;
+  height: 100vh;
+}
+
+.detail-sale .table-invoice .modal {
+  height: 600px;
+}
+
+.detail-sale .table-invoice .modal .modal-content {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.detail-sale .table-invoice .modal .modal-content .withImg img {
+  width: 300px;
+  height: 200px;
+}
+
+.detail-sale .table-invoice .modal .modal-content .withImg .desc {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.detail-sale .table-invoice .modal .modal-content .withImg .desc .kiri {
+  opacity: 70%;
+}
+
+.detail-sale .table-invoice .modal .modal-content .withImg .desc .kanan {
+  margin-left: 10px;
+}
+
+.detail-sale .table-invoice .modal .modal-content .withImg .discount a {
+  background-color: yellow;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.detail-sale .table-invoice .modal .modal-content .details .vendor p {
+  opacity: 70%;
+}
+
+.detail-sale .table-invoice .modal .modal-content .details .register {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.detail-sale .table-invoice .modal .modal-content .details .register .kiri {
+  opacity: 70%;
+}
+
+.detail-sale .table-invoice .modal .modal-content .details .register .kanan {
+  margin-left: 10px;
+}
+
+.detail-sale .table-invoice .modal .modal-content .details .total {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.detail-sale .table-invoice .modal .modal-content .details .total .kiri {
+  opacity: 70%;
+}
+
+.detail-sale .table-invoice .modal .modal-content .details .total .kanan {
+  margin-left: 10px;
 }
 
 .detail-sale .table-invoice .tables {
   padding: 10px;
-  width: 100%;
 }
 
 .detail-sale .table-invoice .tables th {
@@ -180,13 +227,25 @@
 
 .detail-sale .total {
   background-color: white;
-  padding: 10px;
-  max-width: 200px;
+  height: 100vh;
 }
 
-.detail-sale .total span {
+.detail-sale .total .total-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.detail-sale .total .total-text .kiri {
+  margin-top: 25px;
   opacity: 70%;
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.detail-sale .total .total-text .kanan {
+  margin-top: 25px;
+  font-size: 12px;
+  margin-left: 25px;
 }
 
 .detail-sale .total .edit {
@@ -197,4 +256,5 @@
 .detail-sale .total .hapus {
   background-color: #ffc509;
   color: white;
+  margin-left: 80px;
 }

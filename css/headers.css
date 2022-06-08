@@ -4,122 +4,124 @@
 /* Google Font Import - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 body {
-  margin: 0;
-  padding: 0;
-  background: #E7E7EB;
+  background-color: #E7E7EB;
 }
 
-#mySide {
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .sidebar {
   background: #202332;
   height: 100vh;
-  min-width: 100px;
+  width: 240px;
   color: white;
   -webkit-transition: width 0.3s;
   transition: width 0.3s;
 }
 
-#mySide .logo {
+.wrapper .sidebar .logo {
   display: block;
 }
 
-#mySide .logo img {
-  max-width: 200px;
+.wrapper .sidebar .logo img {
+  width: 128px;
   padding: 12px;
-  margin-left: 30px;
 }
 
-#mySide .side-item {
+.wrapper .sidebar hr {
+  border: none;
+  border-top: 1px solid #FFFF;
+}
+
+.wrapper .sidebar .side-item {
+  padding: 12 24px;
   text-decoration: none;
   color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background: #202332;
   border: none;
-  cursor: pointer;
 }
 
-#mySide .side-item:hover {
+.wrapper .sidebar .side-item:hover {
   background: #ffc509;
   color: #202332;
 }
 
-#mySide .side-item a {
-  color: white;
-  text-decoration: none;
-}
-
-#mySide .side-sub-item {
-  background-color: #202332;
+.wrapper .sidebar .side-sub-item {
   border: none;
-  color: #202332;
+  color: grey;
   padding: 0;
   margin: 0;
 }
 
-#mySide .side-sub-item a {
-  color: grey;
-  text-decoration: none;
-}
-
-#mySide .collapsible {
+.wrapper .sidebar .collapsible {
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-#mySide .side-sub-menu {
+.wrapper .sidebar .side-sub-menu {
   text-decoration: none;
   color: grey;
-  padding-left: 12px;
+  padding: 12 24px;
 }
 
-#mySide .side-sub-menu:hover {
+.wrapper .sidebar .side-sub-menu:hover {
   background: #ffc509;
+  color: #202332;
+}
+
+.wrapper .showbar:hover,
+.wrapper .hidebar:hover {
+  cursor: pointer;
+}
+
+.wrapper .hidebar {
+  color: #FFFF;
+  margin: 12px;
+}
+
+.wrapper .hidebar:hover {
   color: white;
 }
 
-.top-bar {
-  background-color: white;
-  min-height: 50px;
+.wrapper .content {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
 }
 
-.top-bar .burger i {
-  position: absolute;
-  left: 50px;
+.wrapper .content .topbar {
+  background: white;
+  padding: 12px;
+  height: 48px;
+}
+
+.wrapper .content .topbar .dropdown-trigger {
+  background: white;
+  color: #202332;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-family: sans-serif;
+  text-transform: none;
+}
+
+.wrapper .content .topbar .dropdown-content a {
   color: #202332;
 }
 
-.top-bar .burger i:hover {
-  width: 85px;
-  -webkit-transition: width 0.5s;
-  transition: width 0.5s;
-}
-
-.top-bar .account {
-  position: absolute;
-  right: 20px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.top-bar .account span {
-  opacity: 70%;
+.sub-item {
+  padding: 12 24px;
+  color: grey;
   font-weight: bold;
-  font-style: italic;
-}
-
-.top-bar .account img {
-  width: 40px;
-  border-radius: 50%;
-}
-
-.top-bar .account img:hover {
-  width: 45px;
-  -webkit-transition: width 0.5s;
-  transition: width 0.5s;
-}
-
-.top-bar .account li a {
-  color: #202332;
+  font-size: 10pt;
 }

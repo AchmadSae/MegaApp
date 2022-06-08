@@ -1,58 +1,53 @@
-
 @import "_var";
 
 
-.domestic-sales {
+#domestic-sales {
     //font-family: 'Nanum Myeongjo', serif;
     font-family: 'Poppins', sans-serif;
-    padding: 25px;
-    background-color: $background;
-    height: 100% auto;
-    .title-step {
-        display: inline-flex;
-        .btn-add {
-            position: absolute;
-            right: 20px;
-            a {
-                background-color: $text-color;
-                color: white;
-                font-size: 12px;
-                height: 30px;
-                i{
-                    color: white;
-                }
-            }
 
+    .title-step {
+        .btn {
+            margin-top: 2px;
+            position: absolute;
+            right: 250px;
+            background-color: $text-color;
+            color: white;
+            font-size: 12px;
         }
     }
 
-    #table-sales{
+    #table-sales {
         display: inline-flex;
+        margin-top: 25px;
+
         .table-sales {
-            width: 100%;
             background-color: white;
             cursor: pointer;
-            
-            th{
+
+            th {
                 opacity: 70%;
             }
-            td{
+
+            td {
                 font-size: 10px;
             }
-            a{
+
+            a {
                 background-color: $btn-status1;
             }
         }
-       
+
     }
-    .operation-sales{
+
+    .operation-sales {
         background-color: white;
-        width: 200px;
         padding: 10px;
-        margin-right: 0;
-        label{
+        margin-top: 25px;
+
+        label {
             font-size: 12px;
         }
+
         ul {
             font-size: 10px;
         }
@@ -60,106 +55,206 @@
         p {
             opacity: 70%;
         }
+
         span {
             font-size: 10px;
         }
-        
+
     }
 }
- // style untuk detail sale
 
- .detail-sale {
-    font-family: 'Nanum Myeongjo', serif;
-     background-color: $background;
-     padding: 25px;
-     height: 100% auto;
-     .invoice { 
-         max-width: 300px;
-            .detail-col {
-                padding: 10px;
-                background-color: white;
-                .detail {
-                    display: inline-flex;
-                    text-align: left;
-                    ul {
-                        font-size: 10px;
-                    }
-                    .l {
-                        opacity: 70%;
-                    }
-                    .r{
-                        margin-left: 20px;
-                    }
-                }
-            }
-            .customer-col {
-                padding: 10px;
-                background-color: white;
-                .detail {
-                    display: inline-flex;
-                    text-align: left;
-                    .l {
-                        opacity: 70%;
-                    }
-                    .r{
-                        margin-left: 20px;
-                    }
-                    ul {
-                        font-size: 10px;
-                    }
-                }
-            }
-            .recepient-col {
-                padding: 10px;
-                background-color: white;
-                .detail {
-                    display: inline-flex;
-                    text-align: left;
-                    .l {
-                        opacity: 70%;
-                    }
-                    .r{
-                        margin-left: 20px;
-                    }
-                    ul {
-                        font-size: 10px;
-                    }
-                }
-            }
-     }
-     .table-invoice {
-        margin-right: 10px;
+// style untuk detail sale
+
+.detail-sale {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+
+    .invoice {
         background-color: white;
-         .tables{
-             padding: 10px;
-             width: 100%;
-             th {
-                 opacity: 70%;
-             }
-             td{
-                 cursor: pointer;
-                 font-size: 10px;
-                 
-             }
-         }
-     }
-     .total {
-         background-color: white;
-         padding: 10px;
-         max-width: 200px;
-         span {
-             opacity: 70%;
-             font-size: 10px;
-         }
-         .edit {
-             background-color: $text-color;
-             color: white;
-         }
-         .hapus {
-             background-color: $main-color;
-             color: white;
-         }
-     }
- }
+        height: 100vh;
 
- 
+        .detail-col {
+            padding: 10px;
+
+            .detail {
+                display: inline-flex;
+                text-align: left;
+
+                ul {
+                    font-size: 10px;
+                }
+
+                .l {
+                    opacity: 70%;
+                }
+
+                .r {
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .customer-col {
+            padding: 10px;
+
+            .detail {
+                display: inline-flex;
+                text-align: left;
+
+                .l {
+                    opacity: 70%;
+                }
+
+                .r {
+                    margin-left: 20px;
+                }
+
+                ul {
+                    font-size: 10px;
+                }
+            }
+        }
+
+        .recepient-col {
+            padding: 10px;
+
+            .detail {
+                display: inline-flex;
+                text-align: left;
+
+                .l {
+                    opacity: 70%;
+                }
+
+                .r {
+                    margin-left: 20px;
+                }
+
+                ul {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .table-invoice {
+        background-color: white;
+        min-width: 500px;
+        height: 100vh;
+
+        .modal {
+            height: 600px;
+
+            .modal-content {
+                display: inline-flex;
+
+                .withImg {
+                    img {
+                        width: 300px;
+                        height: 200px;
+                    }
+
+                    .desc {
+                        display: inline-flex;
+
+                        .kiri {
+                            opacity: 70%;
+                        }
+
+                        .kanan {
+                            margin-left: 10px;
+                        }
+                    }
+
+                    .discount {
+                        a {
+                            background-color: yellow;
+                            width: 100px;
+                            text-align: center;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .details {
+                    .vendor {
+                        p {
+                            opacity: 70%;
+                        }
+                    }
+
+                    .register {
+                        display: inline-flex;
+
+                        .kiri {
+                            opacity: 70%;
+                        }
+
+                        .kanan {
+                            margin-left: 10px;
+                        }
+                    }
+
+                    .total {
+                        display: inline-flex;
+
+                        .kiri {
+                            opacity: 70%;
+                        }
+
+                        .kanan {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .tables {
+            padding: 10px;
+
+            th {
+                opacity: 70%;
+            }
+
+            td {
+                cursor: pointer;
+                font-size: 10px;
+
+            }
+        }
+    }
+
+    .total {
+        background-color: white;
+        height: 100vh;
+
+        .total-text {
+
+            display: inline-flex;
+
+            .kiri {
+                margin-top: 25px;
+                opacity: 70%;
+                font-size: 12px;
+            }
+
+            .kanan {
+                margin-top: 25px;
+                font-size: 12px;
+                margin-left: 25px;
+            }
+        }
+
+        .edit {
+            background-color: $text-color;
+            color: white;
+        }
+
+        .hapus {
+            background-color: $main-color;
+            color: white;
+            margin-left: 80px;
+        }
+    }
+}

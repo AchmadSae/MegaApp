@@ -2,19 +2,15 @@
 include "layout/header.php";
 ?>
 <!-- title  -->
-<section class="domestic-sales mt-5">
-  <div class="row">
-    <div class="col s12 title-step">
-      <h4>Domestic Sale</h4>
-      <div class="btn-add">
-        <a class="waves-effect waves-light btn">Add New Sale</a>
-      </div>
-    </div>
+<p style="margin-top:0 ; margin-left:10px">Domestic Sale</p>
+<section id="domestic-sales">
+  <div class="row title-step">
+    <a class="waves-effect waves-light btn">Add New Sale</a>
   </div>
 
   <div class="row">
     <!-- display table -->
-    <div class="col s12" id="table-sales" style="overflow-x: auto;">
+    <div class="col s10" id="table-sales" style="overflow-x: auto;">
       <table class="striped table-sales">
         <thead>
           <tr>
@@ -57,7 +53,8 @@ include "layout/header.php";
         </tbody>
       </table>
     </div>
-    <div class="operation-sales">
+
+    <div class="operation-sales col s2">
       <p class="search">Search</p>
       <div class="input-field">
         <i class="material-icons prefix">youtube_searched_for</i>
@@ -90,7 +87,10 @@ include "layout/header.php";
     </div>
 
 </section>
-
+</div>
+<!-- div penutup content include topbar  -->
+</div>
+<!-- div penutup wraper include sidebar  -->
 <?php
 include "layout/footer.php";
 ?>
