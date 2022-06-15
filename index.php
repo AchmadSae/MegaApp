@@ -1,5 +1,5 @@
 <?php
-include("layout/header.php");
+include("temp/header.php");
 ?>
 
 <!-- content di sematkan -->
@@ -12,5 +12,5 @@ include("layout/header.php");
 </div>
 <!-- div penutup wraper include sidebar  -->
 <?php
-include("layout/footer.php");
+include("temp/footer.php");
 ?>

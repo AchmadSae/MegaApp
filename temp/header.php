@@ -17,7 +17,10 @@
     <link type="text/css" rel="stylesheet" href="css/purchase.css">
     <link type="text/css" rel="stylesheet" href="css/catalogue.css">
     <link type="text/css" rel="stylesheet" href="css/detail_catalogue.css">
+    <link type="text/css" rel="stylesheet" href="css/product.css">
     <!--<title>Dashboard Sidebar Menu</title>-->
+
+    <?php include 'php/app.php' ?>
 </head>
 
 <body>
@@ -110,10 +113,10 @@
                     <li>
                         <div class="collapsible-header side-item">Product</div>
                         <div class="collapsible-body side-sub-item">
-                            <a class="col s12 side-sub-menu" href="">Material</a>
-                            <a class="col s12 side-sub-menu" href="">Color</a>
-                            <a class="col s12 side-sub-menu" href="">Seater</a>
-                            <a class="col s12 side-sub-menu" href="">Vendor</a>
+                            <a class="col s12 side-sub-menu" href="material.php">Material</a>
+                            <a class="col s12 side-sub-menu" href="color.php">Color</a>
+                            <a class="col s12 side-sub-menu" href="seater.php">Seater</a>
+                            <a class="col s12 side-sub-menu" href="vendor.php">Vendor</a>
                         </div>
                     </li>
                     <li>
