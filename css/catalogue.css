@@ -6,18 +6,20 @@
   display: inline-flex;
 }
 
-#catalogue .add-product h4 {
-  margin-left: 20px;
+#catalogue .add-product span {
+  margin-top: 0;
 }
 
 #catalogue .add-product a {
   position: absolute;
   background-color: #202332;
   color: white;
+  top: 50px;
   right: 20px;
 }
 
 #catalogue .catalogue-content {
+  margin-top: 50px;
   padding: 10px;
 }
 
@@ -33,6 +35,7 @@
   background-color: white;
   padding: 12px;
   margin: 2px;
+  height: 350px;
 }
 
 #catalogue .catalogue-content .cards-row .card .card-title {
@@ -109,7 +112,28 @@
 }
 
 #catalogue .search-catalogue {
-  margin-right: 5px;
-  min-width: 200px;
+  min-width: 300px;
   background-color: white;
+  height: 120vh;
+}
+
+#edit_catalogue .title span {
+  margin-top: 0;
+}
+
+#edit_catalogue .edits {
+  margin-top: 50px;
+}
+
+#edit_catalogue .edits .names {
+  background-color: white;
+  max-width: 300px;
+}
+
+#edit_catalogue .edits .names .list .input-field input {
+  height: 25px;
+}
+
+#edit_catalogue .edits .names .list .input-field label {
+  font-size: 10px;
 }

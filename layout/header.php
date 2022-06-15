@@ -99,7 +99,7 @@
                 <hr class="col s12">
 
                 <a class="col s12 side-item" href="domestic_sale.php">Domestic sales</a>
-                <a class="col s12 side-item" href="">Catalogue</a>
+                <a class="col s12 side-item" href="catalogue.php">Catalogue</a>
                 <a class="col s12 side-item" href="">Delivery</a>
 
                 <hr class="col s12">

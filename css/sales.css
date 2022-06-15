@@ -144,14 +144,11 @@
   height: 100vh;
 }
 
-.detail-sale .table-invoice .modal {
-  height: 600px;
-}
-
 .detail-sale .table-invoice .modal .modal-content {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  font-size: 10px;
 }
 
 .detail-sale .table-invoice .modal .modal-content .withImg img {
@@ -166,10 +163,12 @@
 }
 
 .detail-sale .table-invoice .modal .modal-content .withImg .desc .kiri {
+  margin-top: 10px;
   opacity: 70%;
 }
 
 .detail-sale .table-invoice .modal .modal-content .withImg .desc .kanan {
+  margin-top: 10px;
   margin-left: 10px;
 }
 
@@ -188,13 +187,16 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin-top: 10px;
 }
 
 .detail-sale .table-invoice .modal .modal-content .details .register .kiri {
+  margin-top: 10px;
   opacity: 70%;
 }
 
 .detail-sale .table-invoice .modal .modal-content .details .register .kanan {
+  margin-top: 10px;
   margin-left: 10px;
 }
 
@@ -206,10 +208,22 @@
 
 .detail-sale .table-invoice .modal .modal-content .details .total .kiri {
   opacity: 70%;
+  margin-top: 10px;
 }
 
 .detail-sale .table-invoice .modal .modal-content .details .total .kanan {
+  margin-top: 10px;
   margin-left: 10px;
+}
+
+.detail-sale .table-invoice .modal .modal-footer a {
+  color: #ffc509;
+  font-weight: bold;
+}
+
+.detail-sale .table-invoice .modal .modal-footer a:hover {
+  background-color: #202332;
+  color: white;
 }
 
 .detail-sale .table-invoice .tables {

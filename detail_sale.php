@@ -289,7 +289,7 @@ include "layout/header.php";
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">CLOSE</a>
                     </div>
                 </div>
                 <!-- pop up untuk detail product -->

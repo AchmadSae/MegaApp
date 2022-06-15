@@ -5,169 +5,108 @@ include "layout/header.php";
 
 <section id="catalogue">
     <!-- title  -->
-    <div class="row">
-        <div class="col s12 add-product">
-            <h4>Catalogue</h4>
-            <a href="" class="waves_effect waves-light btn">Add New Product</a>
-        </div>
+
+    <div class="add-product">
+      <span>Catalogue</span>
+        <a href="" class="waves_effect waves-light btn">Add New Product</a>
     </div>
+
     <div class="catalogue-content row">
         <!-- card catalogue  -->
-        <div class="cards col s11">
-            <div class="cards-row">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/bono.jpg">
-                        <span class="card-title">ACBDSJKUU</span>
-                    </div>
-                    <div class="card-content">
-                        <p class="color-type">
-                            Grey
-                        </p>
-                        <div class="name">
-                            <span>Bono</span>
-                            <p>sofa 2 dudukan</p>
-                            <p class="bahan">fabric</p>
+        <div class="cards col s8">
+            <div class="row">
+                <div class="col s12 cards-row">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/bono.jpg">
+                            <span class="card-title">ACBDSJKUU</span>
                         </div>
-                        <div class="prices">
-                            <div class="price">
-                                <p class="price">Rp.2,600,000</p>
-                                <p class="price-coret">Rp.2,760,000</p>
+                        <div class="card-content">
+                            <p class="color-type">
+                                Grey
+                            </p>
+                            <div class="name">
+                                <span>Bono</span>
+                                <p>sofa 2 dudukan</p>
+                                <p class="bahan">fabric</p>
                             </div>
-                            <div class="stock">
-                                <p class="pStock">stock <br> 100</p>
+                            <div class="prices">
+                                <div class="price">
+                                    <p class="price">Rp.2,600,000</p>
+                                    <p class="price-coret">Rp.2,760,000</p>
+                                </div>
+                                <div class="stock">
+                                    <p class="pStock">stock <br> 100</p>
+                                </div>
                             </div>
-                        </div>
 
+                        </div>
+                        <div class="card-action">
+                            <a href="detail_catalogue.php">DETAIL</a>
+                        </div>
                     </div>
-                    <div class="card-action">
-                        <a href="#">DETAIL</a>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/bono.jpg">
+                            <span class="card-title">ACBDSJKUU</span>
+                        </div>
+                        <div class="card-content">
+                            <p class="color-type">
+                                Grey
+                            </p>
+                            <div class="name">
+                                <span>Bono</span>
+                                <p>sofa 2 dudukan</p>
+                                <p class="bahan">fabric</p>
+                            </div>
+                            <div class="prices">
+                                <div class="price">
+                                    <p class="price">Rp.2,600,000</p>
+                                    <p class="price-coret">Rp.2,760,000</p>
+                                </div>
+                                <div class="stock">
+                                    <p class="pStock">stock <br> 100</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-action">
+                            <a href="#">DETAIL</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/bono.jpg">
+                            <span class="card-title">ACBDSJKUU</span>
+                        </div>
+                        <div class="card-content">
+                            <p class="color-type">
+                                Grey
+                            </p>
+                            <div class="name">
+                                <span>Bono</span>
+                                <p>sofa 2 dudukan</p>
+                                <p class="bahan">fabric</p>
+                            </div>
+                            <div class="prices">
+                                <div class="price">
+                                    <p class="price">Rp.2,600,000</p>
+                                    <p class="price-coret">Rp.2,760,000</p>
+                                </div>
+                                <div class="stock">
+                                    <p class="pStock">stock <br> 100</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-action">
+                            <a href="#">DETAIL</a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/bono.jpg">
-                        <span class="card-title">ACBDSJKUU</span>
-                    </div>
-                    <div class="card-content">
-                        <p class="color-type">
-                            Grey
-                        </p>
-                        <div class="name">
-                            <span>Bono</span>
-                            <p>sofa 2 dudukan</p>
-                            <p class="bahan">fabric</p>
-                        </div>
-                        <div class="prices">
-                            <div class="price">
-                                <p class="price">Rp.2,600,000</p>
-                                <p class="price-coret">Rp.2,760,000</p>
-                            </div>
-                            <div class="stock">
-                                <p class="pStock">stock <br> 100</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="card-action">
-                        <a href="#">DETAIL</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/bono.jpg">
-                        <span class="card-title">ACBDSJKUU</span>
-                    </div>
-                    <div class="card-content">
-                        <p class="color-type">
-                            Grey
-                        </p>
-                        <div class="name">
-                            <span>Bono</span>
-                            <p>sofa 2 dudukan</p>
-                            <p class="bahan">fabric</p>
-                        </div>
-                        <div class="prices">
-                            <div class="price">
-                                <p class="price">Rp.2,600,000</p>
-                                <p class="price-coret">Rp.2,760,000</p>
-                            </div>
-                            <div class="stock">
-                                <p class="pStock">stock <br> 100</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="card-action">
-                        <a href="#">DETAIL</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/bono.jpg">
-                        <span class="card-title">ACBDSJKUU</span>
-                    </div>
-                    <div class="card-content">
-                        <p class="color-type">
-                            Grey
-                        </p>
-                        <div class="name">
-                            <span>Bono</span>
-                            <p>sofa 2 dudukan</p>
-                            <p class="bahan">fabric</p>
-                        </div>
-                        <div class="prices">
-                            <div class="price">
-                                <p class="price">Rp.2,600,000</p>
-                                <p class="price-coret">Rp.2,760,000</p>
-                            </div>
-                            <div class="stock">
-                                <p class="pStock">stock <br> 100</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="card-action">
-                        <a href="#">DETAIL</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/bono.jpg">
-                        <span class="card-title">ACBDSJKUU</span>
-                    </div>
-                    <div class="card-content">
-                        <p class="color-type">
-                            Grey
-                        </p>
-                        <div class="name">
-                            <span>Bono</span>
-                            <p>sofa 2 dudukan</p>
-                            <p class="bahan">fabric</p>
-                        </div>
-                        <div class="prices">
-                            <div class="price">
-                                <p class="price">Rp.2,600,000</p>
-                                <p class="price-coret">Rp.2,760,000</p>
-                            </div>
-                            <div class="stock">
-                                <p class="pStock">stock <br> 100</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="card-action">
-                        <a href="#">DETAIL</a>
-                    </div>
-                </div>
-
-
             </div>
-            <div class="cards-row">
+            <div class="col s12 cards-row">
                 <div class="card">
                     <div class="card-image">
                         <img src="images/bono.jpg">
@@ -227,7 +166,6 @@ include "layout/header.php";
                         <a href="#">DETAIL</a>
                     </div>
                 </div>
-
                 <div class="card">
                     <div class="card-image">
                         <img src="images/bono.jpg">
@@ -257,72 +195,10 @@ include "layout/header.php";
                         <a href="#">DETAIL</a>
                     </div>
                 </div>
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/bono.jpg">
-                        <span class="card-title">ACBDSJKUU</span>
-                    </div>
-                    <div class="card-content">
-                        <p class="color-type">
-                            Grey
-                        </p>
-                        <div class="name">
-                            <span>Bono</span>
-                            <p>sofa 2 dudukan</p>
-                            <p class="bahan">fabric</p>
-                        </div>
-                        <div class="prices">
-                            <div class="price">
-                                <p class="price">Rp.2,600,000</p>
-                                <p class="price-coret">Rp.2,760,000</p>
-                            </div>
-                            <div class="stock">
-                                <p class="pStock">stock <br> 100</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="card-action">
-                        <a href="#">DETAIL</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/bono.jpg">
-                        <span class="card-title">ACBDSJKUU</span>
-                    </div>
-                    <div class="card-content">
-                        <p class="color-type">
-                            Grey
-                        </p>
-                        <div class="name">
-                            <span>Bono</span>
-                            <p>sofa 2 dudukan</p>
-                            <p class="bahan">fabric</p>
-                        </div>
-                        <div class="prices">
-                            <div class="price">
-                                <p class="price">Rp.2,600,000</p>
-                                <p class="price-coret">Rp.2,760,000</p>
-                            </div>
-                            <div class="stock">
-                                <p class="pStock">stock <br> 100</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="card-action">
-                        <a href="#">DETAIL</a>
-                    </div>
-                </div>
-
-
             </div>
+            <!-- search form  -->
         </div>
-        <!-- search form  -->
-        <div class="search-catalogue col s1">
+        <div class="search-catalogue col s4">
             <p class="search">Search</p>
             <div class="input-field">
                 <i class="material-icons prefix">youtube_searched_for</i>
@@ -355,9 +231,11 @@ include "layout/header.php";
         </div>
     </div>
     <!-- operation catalogue  -->
-
 </section>
-
+</div>
+<!-- div penutup content include topbar  -->
+</div>
+<!-- div penutup wraper include sidebar  -->
 
 
 

@@ -143,10 +143,9 @@
         height: 100vh;
 
         .modal {
-            height: 600px;
-
             .modal-content {
                 display: inline-flex;
+                font-size: 10px;
 
                 .withImg {
                     img {
@@ -158,10 +157,12 @@
                         display: inline-flex;
 
                         .kiri {
+                            margin-top: 10px;
                             opacity: 70%;
                         }
 
                         .kanan {
+                            margin-top: 10px;
                             margin-left: 10px;
                         }
                     }
@@ -185,12 +186,15 @@
 
                     .register {
                         display: inline-flex;
+                        margin-top: 10px;
 
                         .kiri {
+                            margin-top: 10px;
                             opacity: 70%;
                         }
 
                         .kanan {
+                            margin-top: 10px;
                             margin-left: 10px;
                         }
                     }
@@ -200,11 +204,23 @@
 
                         .kiri {
                             opacity: 70%;
+                            margin-top: 10px;
                         }
 
                         .kanan {
+                            margin-top: 10px;
                             margin-left: 10px;
                         }
+                    }
+                }
+            }
+            .modal-footer {
+                a {
+                    color: $main-color;
+                    font-weight: bold;
+                    &:hover {
+                        background-color: $text-color;
+                        color: white;
                     }
                 }
             }

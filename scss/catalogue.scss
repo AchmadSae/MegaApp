@@ -3,21 +3,25 @@
 #catalogue {
     .add-product {
         display: inline-flex;
-        h4 {
-            margin-left: 20px;
+
+        span {
+            margin-top: 0;
         }
+
         a {
             position: absolute;
             background-color: $text-color;
             color: white;
+            top: 50px;
             right: 20px;
         }
     }
 
     // style card 
     .catalogue-content {
+        margin-top: 50px;
         padding: 10px;
-        
+
         .cards-row {
             display: inline-flex;
 
@@ -27,6 +31,7 @@
                 background-color: white;
                 padding: 12px;
                 margin: 2px;
+                height: 350px;
 
                 .card-title {
                     text-shadow: 0 0 10px $main-color;
@@ -94,6 +99,7 @@
                 .card-action {
 
                     text-align: center;
+
                     a {
                         text-decoration: none;
                         font-weight: bold;
@@ -106,8 +112,38 @@
     }
 
     .search-catalogue {
-        margin-right: 5px;
-        min-width: 200px;
+        min-width: 300px;
         background-color: white;
+        height: 120vh;
+    }
+}
+
+#edit_catalogue {
+    .title {
+        span {
+            margin-top: 0;
+        }
+    }
+
+    .edits {
+        margin-top: 50px;
+
+        .names {
+            background-color: white;
+            max-width: 300px;
+
+            .list {
+                .input-field {
+
+                    input {
+                        height: 25px;
+                    }
+
+                    label {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
     }
 }
