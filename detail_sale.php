@@ -1,9 +1,10 @@
 <?php
-include "layout/header.php";
+include "temp/header.php";
 ?>
 <!-- title  -->
 <section id="detail-sale">
-    <span>Detail Sale</span>
+    <span><a href="./">Home</a> / <span class="second-text">Detail Sale</span></span>
+    <h4>Detail Sale</h4>
     <div class="detail-sale">
         <div class="row">
             <div class="col s3 invoice">
@@ -60,130 +61,6 @@ include "layout/header.php";
                 </div>
             </div>
             <div class="col s6 table-invoice">
-                <!-- pop up untuk detail product -->
-                <!-- <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" style="width : 600px;
-                    height:1000px;">
-                    <div class="modal-dialog " style="width:400px ; height:1000px"> -->
-
-                <!-- <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">BONO SOFA 2P</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div> -->
-                <!-- deskripsi produk  -->
-                <!-- <div class="modal-body" style="font-size:10px;">
-                                <div class="row">
-                                    <div class="col md-6 ">
-                                        <img src="images/bono.jpg" alt="" srcset="" style="width: 300px; height: 150px;">
-                                        <div style="display: inline-flex;">
-                                            <div class="left" style="opacity: 70%;font-size:10px;">
-                                                <p>ID</p>
-                                                <p>Name</p>
-                                                <p>Detail</p>
-                                                <p>Korean</p>
-                                                <p>SKU</p>
-                                                <p>WEB Number</p>
-                                                <hr>
-                                                <p>Category</p>
-                                                <p>Material</p>
-                                                <p>Color</p>
-                                                <p>Seater</p>
-                                                <p>Slot</p>
-                                                <p>Tier</p>
-                                                <hr>
-                                                <p>Supply Price</p>
-                                                <p>Web Price</p>
-                                                <p>Current Price</p>
-
-                                            </div>
-                                            <div class="isi" style="padding-left: 30px;">
-                                                <p>112</p>
-                                                <p>Bono</p>
-                                                <p>Sofa 2 Dudukan</p>
-                                                <p>101 | XXXX</p>
-                                                <p>ABCDAUOEAE</p>
-                                                <p>8020208</p>
-                                                <hr>
-                                                <p>Sofa</p>
-                                                <p>Fabric</p>
-                                                <p>Gray</p>
-                                                <p>2</p>
-                                                <p>1</p>
-                                                <p>-</p>
-                                                <hr>
-                                                <p>Rp.2,121,121</p>
-                                                <p>Rp.2,312,121</p>
-                                                <p>Rp.2,412,121</p>
-                                            </div>
-                                        </div>
-                                        <div style="display:inline-flex;">
-                                            <span class="new badge" data-badge-caption="">Flash Sale</span>
-                                            <span class="new badge" data-badge-caption="">Flash Sale</span>
-                                            <span class="new badge" data-badge-caption="">Flash Sale</span>
-                                        </div>
-                                    </div>
-                                    <div class="col md-6">
-                                        <div class="vendro">
-                                            <p style="opacity:70%;">Vendor</p>
-                                            <p style="font-weight:bold;">HUIZHOU YIANJI CO.Ltd</p>
-                                            <p style="opacity:70%;">Factory number : 140</p>
-                                            <p style="font-weight:bold;">HUIZHOU YIANJI CO.Ltd</p>
-                                            <p style="opacity:70%;">Factory number : 140</p>
-                                            <p style="font-weight:bold;">HUIZHOU YIANJI CO.Ltd</p>
-                                        </div>
-                                        <hr>
-                                        <div class="register" style="display:inline-flex;">
-                                            <div class="campaign">
-                                                <p style="font-weight:bold;">amayzing sale</p>
-                                                <p style="font-weight:bold;">amayzing sale</p>
-                                                <p style="font-weight:bold;">amayzing sale</p>
-                                            </div>
-                                            <div class="isi">
-                                                <p style="opacity:70%;"> 1 May 2022 - 30 May 2022</p>
-                                                <p style="opacity:70%;"> 1 May 2022 - 30 May 2022</p>
-                                                <p style="opacity:70%;">1 May 2022 - 30 May 2022</p>
-                                            </div>
-                                        </div>
-                                        <hr>
-                                        <div class="total" style="display:inline-flex;">
-                                            <div class="left">
-                                                <p style="opacity:70%;">Total Sales Quantity</p>
-                                                <p style="opacity:70%;">This Month Sales Quantity</p>
-                                                <p style="opacity:70%;">This Week Sales Quantity</p>
-                                                <hr>
-                                                <p style="opacity:70%;">Total Purchase Quantity</p>
-                                                <p style="opacity:70%;">This Month Purchase Quantity</p>
-                                                <p style="opacity:70%;">This Week Purchase Quantity</p>
-                                                <p style="opacity:70%;">Current Stock</p>
-
-                                            </div>
-                                            <div class="isi">
-                                                <p style="font-weight:bold;">1456</p>
-                                                <p style="font-weight:bold;">22</p>
-                                                <p style="font-weight:bold;">12</p>
-                                                <hr>
-                                                <p style="font-weight:bold;">2</p>
-                                                <p style="font-weight:bold;">1</p>
-                                                <p style="font-weight:bold;">1</p>
-                                                <p style="font-weight:bold;">21</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-
-                <!-- </div> -->
-                <!--akhir deksripsi produk  -->
-                <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-
-
-
-                <!-- Modal Structure -->
                 <div id="modal1" class="modal">
                     <div class="modal-content">
                         <div class="withImg">
@@ -368,5 +245,5 @@ include "layout/header.php";
     </div>
 </section>
 <?php
-include "layout/footer.php";
+include "temp/footer.php";
 ?>

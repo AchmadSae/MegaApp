@@ -1,45 +1,64 @@
 @import "_var";
 
 #catalogue {
+    .step {
+        margin-top: 40px;
+    }
+
     .add-product {
         display: inline-flex;
-
-        span {
-            margin-top: 0;
-        }
 
         a {
             position: absolute;
             background-color: $text-color;
             color: white;
-            top: 50px;
             right: 20px;
+        }
+    }
+
+    .search-catalogue {
+        width: 100%;
+        background-color: white;
+        height: 120px;
+        display: flex;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 12px;
+
+        .sort {
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+
+        .filter {
+            margin-top: 20px;
+            margin-left: 50px;
         }
     }
 
     // style card 
     .catalogue-content {
-        margin-top: 50px;
-        padding: 10px;
+        margin-top: 10px;
 
         .cards-row {
-            display: inline-flex;
+
+            display: flex;
+            justify-content: center;
 
             .card {
+                width: 180px;
                 font-size: 10px;
-                max-width: 200px;
                 background-color: white;
                 padding: 12px;
                 margin: 2px;
-                height: 350px;
+                height: 300px;
 
                 .card-title {
-                    text-shadow: 0 0 10px $main-color;
                     position: absolute;
                     font-weight: bold;
                     font-size: 10px;
                     color: $main-color;
-                    margin-bottom: 150px;
+                    margin-bottom: 130px;
                 }
 
                 .card-content {
@@ -89,45 +108,41 @@
                     .stock {
                         background-color: $text-color;
                         color: white;
-                        border-radius: 10px;
                         width: 50px;
-                        margin-left: 60px;
+                        margin-left: 30px;
                         text-align: center;
                     }
                 }
 
-                .card-action {
 
+                .action {
+                    width: 100%;
+                    background-color: $text-color;
                     text-align: center;
-
-                    a {
-                        text-decoration: none;
-                        font-weight: bold;
-
-                    }
+                    border-radius: 5px;
                 }
+
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: $main-color;
+                }
+
 
             }
         }
     }
-
-    .search-catalogue {
-        min-width: 300px;
-        background-color: white;
-        height: 120vh;
-    }
 }
 
+// style untuk edit catalogue 
 #edit_catalogue {
+
     .title {
-        span {
-            margin-top: 0;
-        }
+        margin-top: 40px;
+        font-size: 10px;
     }
 
     .edits {
-        margin-top: 50px;
-
         .names {
             background-color: white;
             max-width: 300px;
@@ -141,6 +156,85 @@
 
                     label {
                         font-size: 10px;
+                    }
+                }
+            }
+
+            .material {
+                .drop {
+                    display: inline-flex;
+                    margin-top: 10px;
+                    width: 150px;
+
+                    span {
+                        width: 100px;
+                    }
+
+                    .notice {
+                        margin-top: 5px;
+                        margin-left: 20px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .fabric {
+        background-color: white;
+        margin-left: 5px;
+
+        table {
+            width: 300px;
+            padding: 5px;
+
+            th {
+                font-size: 12px;
+                opacity: 50%;
+            }
+
+            .items {
+                img {
+                    width: 30px;
+                    height: 20px;
+                }
+
+                td {
+                    text-align: center;
+
+                    .btn-floating {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .PUfab {
+        background-color: white;
+
+        margin-left: 5px;
+
+        table {
+            width: 300px;
+            padding: 5px;
+
+            th {
+                font-size: 12px;
+                opacity: 50%;
+            }
+
+            .items {
+                img {
+                    width: 30px;
+                    height: 20px;
+                }
+
+                td {
+                    text-align: center;
+
+                    .btn-floating {
+                        margin-left: 5px;
                     }
                 }
             }

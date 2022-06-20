@@ -1,235 +1,100 @@
 // style untuk material section 
 @import "_var";
 
-.wrapper {
-    width: 100%;
-    height: 100%;
-    display: flex;
 
-    .sidebar {
-        background: $text-color;
-        height: 100vh;
-        width: 240px;
-        color: white;
-        transition: width 0.3s;
-
-        .logo {
-            display: block;
-
-            img {
-
-                width: 128px;
-                padding: 12px;
-            }
-        }
-
-        hr {
-            border: none;
-            border-top: 1px solid $line-color;
-        }
-
-        .side-item {
-
-            padding: 12 24px;
-            text-decoration: none;
-            color: white;
-            transition: 0.3s;
-            background: $text-color;
-            border: none;
-
-            &:hover {
-
-                background: $main-color;
-                color: $text-color;
-
-            }
-        }
-
-        .side-sub-item {
-
-            border: none;
-            color: $gray-color;
-            padding: 0;
-            margin: 0;
-        }
-
-        .collapsible {
-
-            border: none;
-            box-shadow: none;
-
-        }
-
-        .side-sub-menu {
-
-            text-decoration: none;
-            color: $gray-color;
-            padding: 12 24px;
-
-            &:hover {
-
-                background: $main-color;
-                color: $text-color;
-
-            }
-        }
-
-
-    }
-
-    .showbar,
-    .hidebar {
-
-        &:hover {
-
-            cursor: pointer;
-        }
-    }
-
-    .hidebar {
-
-        color: $line-color;
-        margin: 12px;
-
-        &:hover {
-
-            color: white;
-        }
-    }
-
-    .content {
-
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-
-        .topbar {
-
-            background: white;
-            padding: 12px;
-            height: 48px;
-
-            .dropdown-trigger {
-
-                background: white;
-                color: $text-color;
-                box-shadow: none;
-                margin: 0;
-                padding: 0;
-                line-height: normal;
-                font-family: sans-serif;
-                text-transform: none;
-            }
-
-            .dropdown-content a {
-
-                color: $text-color;
-            }
-        }
-    }
-
-}
-
-.sub-item {
-
-    padding: 12 24px;
-    color: $gray-color;
-    font-weight: bold;
-    font-size: 10pt;
-
-}
 
 .container-page {
     padding: 24px;
-}
-
-.box {
-
-    background: white;
-    border-radius: 8px;
-    padding: 12px;
-}
-
-.data-table {
 
 
-    tbody {
-        display: block;
-        height: 63vh;
-        overflow: auto;
+    .box {
+
+        background: white;
+        border-radius: 8px;
+        padding: 12px;
     }
 
-    thead,
-    tbody tr {
-        display: table;
-        width: 100%;
-        table-layout: fixed;
+    .data-table {
+
+
+        tbody {
+            display: block;
+            height: 63vh;
+            overflow: auto;
+        }
+
+        thead,
+        tbody tr {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        thead {
+            width: calc(100% - 1em)
+        }
+
+        th {
+            padding-left: 24px;
+        }
+
+        td {
+            margin-right: 24px;
+        }
     }
 
-    thead {
-        width: calc(100% - 1em)
+    .btn-edit {
+
+        color: white;
+        background: $text-color  !important;
+        box-shadow: none !important;
+
+
+        &:hover {
+
+            color: $text-color;
+            background: $main-color  !important;
+            cursor: pointer;
+            transition: 0.3s;
+        }
     }
 
-    th {
-        padding-left: 24px;
-    }
+    .btn-delete {
 
-    td {
-        margin-right: 24px;
-    }
-}
-
-.btn-edit {
-
-    color: white;
-    background: $text-color  !important;
-    box-shadow: none !important;
-
-
-    &:hover {
-
-        color: $text-color;
+        color: $text-color  !important;
+        text-decoration: none;
         background: $main-color  !important;
-        cursor: pointer;
-        transition: 0.3s;
+        box-shadow: none !important;
+
+        &:hover {
+
+            background: red !important;
+            color: white !important;
+            cursor: pointer;
+            transition: 0.3s;
+        }
     }
-}
 
-.btn-delete {
+    .second-text {
 
-    color: $text-color  !important;
-    text-decoration: none;
-    background: $main-color  !important;
-    box-shadow: none !important;
+        color: $gray-color;
 
-    &:hover {
-
-        background: red !important;
-        color: white !important;
-        cursor: pointer;
-        transition: 0.3s;
     }
-}
 
-.second-text {
+    .main-btn {
 
-    color: $gray-color;
+        background: $main-color;
+        text-decoration: none;
+        color: $text-color;
+        padding: 8px;
+        border-radius: 4px;
+        font-weight: 500;
+        padding-right: 16px;
 
-}
+        &:hover {
 
-.main-btn {
-
-    background: $main-color;
-    text-decoration: none;
-    color: $text-color;
-    padding: 8px;
-    border-radius: 4px;
-    font-weight: 500;
-    padding-right: 16px;
-
-    &:hover {
-
-        background-color: $text-color;
-        color: $main-color;
+            background-color: $text-color;
+            color: $main-color;
+        }
     }
 }

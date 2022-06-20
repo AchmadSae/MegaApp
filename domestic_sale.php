@@ -1,10 +1,12 @@
 <?php
-include "layout/header.php";
+include "temp/header.php";
 ?>
 <!-- title  -->
-<p style="margin-top:0 ; margin-left:10px">Domestic Sale</p>
+
 <section id="domestic-sales">
+  <span><a href="./">Home</a> / <span class="second-text">Domestic sale</span></span>
   <div class="row title-step">
+    <h4>Domestic Sale</h4>
     <a class="waves-effect waves-light btn">Add New Sale</a>
   </div>
 
@@ -92,5 +94,5 @@ include "layout/header.php";
 </div>
 <!-- div penutup wraper include sidebar  -->
 <?php
-include "layout/footer.php";
+include "temp/footer.php";
 ?>

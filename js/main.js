@@ -14,7 +14,6 @@ $(document).ready(function(){
     $('.showbar').on('click', function(){
 
         $('.sidebar').css('width','240px');
-        $('.content').css('margin-left','0');
         $('.showbar').toggle();
 
         setTimeout(function(){

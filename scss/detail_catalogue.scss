@@ -3,12 +3,6 @@
 #detail_catalogue {
     font-family: 'Poppins', serif;
 
-    .title {
-        span {
-            margin-top: 0;
-        }
-    }
-
     .alls {
         margin-top: 40px;
 
@@ -63,6 +57,7 @@
             padding: 5px;
             padding-top: 15px;
             height: 100vh;
+
             .vendor {
                 p {
                     opacity: 50%;
@@ -114,6 +109,7 @@
         .grafYears {
             background-color: white;
             min-width: 300px;
+
             p {
                 padding: 5px;
                 font-size: 12px;
@@ -123,6 +119,7 @@
 
             .graf {
                 font-size: 10px;
+
                 .chart {
                     width: 100%;
                 }

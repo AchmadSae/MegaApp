@@ -1,74 +1,81 @@
 /* Google Font Import - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+#catalogue .step {
+  margin-top: 40px;
+}
 #catalogue .add-product {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
-
-#catalogue .add-product span {
-  margin-top: 0;
-}
-
 #catalogue .add-product a {
   position: absolute;
   background-color: #202332;
   color: white;
-  top: 50px;
   right: 20px;
 }
-
-#catalogue .catalogue-content {
-  margin-top: 50px;
+#catalogue .search-catalogue {
+  width: 100%;
+  background-color: white;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
 }
-
+#catalogue .search-catalogue .sort {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#catalogue .search-catalogue .filter {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#catalogue .catalogue-content {
+  margin-top: 10px;
+}
 #catalogue .catalogue-content .cards-row {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
 #catalogue .catalogue-content .cards-row .card {
+  width: 180px;
   font-size: 10px;
-  max-width: 200px;
   background-color: white;
   padding: 12px;
   margin: 2px;
-  height: 350px;
+  height: 300px;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-title {
-  text-shadow: 0 0 10px #ffc509;
   position: absolute;
   font-weight: bold;
   font-size: 10px;
   color: #ffc509;
-  margin-bottom: 150px;
+  margin-bottom: 130px;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content {
   padding: 0;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content .color-type {
   background-color: #202332;
   color: white;
   padding-left: 10px;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content .name {
   padding-left: 10px;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content .name span {
   font-weight: bold;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content .name p {
   opacity: 70%;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content .name .bahan {
   width: 50px;
   border-radius: 10px;
@@ -76,64 +83,107 @@
   text-align: center;
   background-color: #202332;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content .prices {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 10px;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content .prices .price {
   font-weight: bold;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content .prices .price-coret {
   opacity: 50%;
   text-decoration: line-through;
 }
-
 #catalogue .catalogue-content .cards-row .card .card-content .stock {
   background-color: #202332;
   color: white;
-  border-radius: 10px;
   width: 50px;
-  margin-left: 60px;
+  margin-left: 30px;
   text-align: center;
 }
-
-#catalogue .catalogue-content .cards-row .card .card-action {
+#catalogue .catalogue-content .cards-row .card .action {
+  width: 100%;
+  background-color: #202332;
   text-align: center;
+  border-radius: 5px;
 }
-
-#catalogue .catalogue-content .cards-row .card .card-action a {
+#catalogue .catalogue-content .cards-row .card a {
   text-decoration: none;
   font-weight: bold;
+  color: #ffc509;
 }
 
-#catalogue .search-catalogue {
-  min-width: 300px;
-  background-color: white;
-  height: 120vh;
+#edit_catalogue .title {
+  margin-top: 40px;
+  font-size: 10px;
 }
-
-#edit_catalogue .title span {
-  margin-top: 0;
-}
-
-#edit_catalogue .edits {
-  margin-top: 50px;
-}
-
 #edit_catalogue .edits .names {
   background-color: white;
   max-width: 300px;
 }
-
 #edit_catalogue .edits .names .list .input-field input {
   height: 25px;
 }
-
 #edit_catalogue .edits .names .list .input-field label {
   font-size: 10px;
+}
+#edit_catalogue .edits .names .material .drop {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 10px;
+  width: 150px;
+}
+#edit_catalogue .edits .names .material .drop span {
+  width: 100px;
+}
+#edit_catalogue .edits .names .material .drop .notice {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+#edit_catalogue .fabric {
+  background-color: white;
+  margin-left: 5px;
+}
+#edit_catalogue .fabric table {
+  width: 300px;
+  padding: 5px;
+}
+#edit_catalogue .fabric table th {
+  font-size: 12px;
+  opacity: 50%;
+}
+#edit_catalogue .fabric table .items img {
+  width: 30px;
+  height: 20px;
+}
+#edit_catalogue .fabric table .items td {
+  text-align: center;
+}
+#edit_catalogue .fabric table .items td .btn-floating {
+  margin-left: 5px;
+}
+#edit_catalogue .PUfab {
+  background-color: white;
+  margin-left: 5px;
+}
+#edit_catalogue .PUfab table {
+  width: 300px;
+  padding: 5px;
+}
+#edit_catalogue .PUfab table th {
+  font-size: 12px;
+  opacity: 50%;
+}
+#edit_catalogue .PUfab table .items img {
+  width: 30px;
+  height: 20px;
+}
+#edit_catalogue .PUfab table .items td {
+  text-align: center;
+}
+#edit_catalogue .PUfab table .items td .btn-floating {
+  margin-left: 5px;
 }

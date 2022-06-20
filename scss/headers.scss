@@ -21,6 +21,16 @@ body {
         color: white;
         transition: width 0.3s;
 
+        .hidebar {
+            i {
+                color: $line-color;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+
         .logo {
             display: block;
 
@@ -89,8 +99,8 @@ body {
     .hidebar {
 
         &:hover {
-
             cursor: pointer;
+
         }
     }
 

@@ -4,7 +4,7 @@
 
         <div class="address col s12">
             <span><a href="./">Home</a> / <span class="second-text">vendor</span></span>
-            <h1>vendor</h1>
+            <h4>vendor</h4>
         </div>
 
     </div>

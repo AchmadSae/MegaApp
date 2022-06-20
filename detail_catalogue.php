@@ -1,16 +1,14 @@
 <?php
-include "layout/header.php"
+include "temp/header.php"
 ?>
 
 <!-- section untuk detail product di catalogue  -->
 <section id="detail_catalogue">
-    <!-- title section  -->
-
-    <div class="col s12 title">
-        <span>View Product</span>
-    </div>
     <!-- column action section  -->
     <div class="row alls">
+        <!-- title section  -->
+        <span><a href="./">Home</a> / <span class="second-text">Detail Catalogue</span></span>
+        <h4 class="title">Detail Catalogue</h4>
         <!-- action detail  -->
         <div class="col s2">
             <div class="detail">
@@ -116,7 +114,7 @@ include "layout/header.php"
                     </ul>
                 </div>
                 <div class="btns">
-                    <a href="" class="btn btnEdit">Edit</a>
+                    <a href="edit_catalogue.php" class="btn btnEdit">Edit</a>
                     <a href="" class="btn btnDelete">Delete</a>
                 </div>
             </div>
@@ -219,5 +217,5 @@ include "layout/header.php"
 
 
 <?php
-include "layout/footer.php"
+include "temp/footer.php"
 ?>

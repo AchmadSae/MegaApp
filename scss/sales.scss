@@ -4,12 +4,13 @@
 #domestic-sales {
     //font-family: 'Nanum Myeongjo', serif;
     font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
 
     .title-step {
+        display: flex;
         .btn {
-            margin-top: 2px;
             position: absolute;
-            right: 250px;
+            right: 60px;
             background-color: $text-color;
             color: white;
             font-size: 12px;
@@ -18,8 +19,6 @@
 
     #table-sales {
         display: inline-flex;
-        margin-top: 25px;
-
         .table-sales {
             background-color: white;
             cursor: pointer;
@@ -42,8 +41,6 @@
     .operation-sales {
         background-color: white;
         padding: 10px;
-        margin-top: 25px;
-
         label {
             font-size: 12px;
         }
@@ -65,10 +62,9 @@
 
 // style untuk detail sale
 
-.detail-sale {
+#detail-sale {
     font-family: 'Poppins', sans-serif;
     margin-top: 35px;
-
     .invoice {
         background-color: white;
         height: 100vh;
@@ -214,10 +210,12 @@
                     }
                 }
             }
+
             .modal-footer {
                 a {
                     color: $main-color;
                     font-weight: bold;
+
                     &:hover {
                         background-color: $text-color;
                         color: white;
