@@ -3,6 +3,10 @@
 .container-page {
   padding: 24px;
 }
+.container-page .valign-wrapper {
+  height: 50px;
+  margin-top: -20px;
+}
 .container-page .box {
   background: white;
   border-radius: 8px;
@@ -27,6 +31,23 @@
 }
 .container-page .data-table td {
   margin-right: 24px;
+  margin-top: 5px;
+}
+.container-page .data-table td .btn-delete-table {
+  color: red;
+}
+.container-page .data-table td .btn-delete-table:hover {
+  scale: 1.5;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+}
+.container-page .data-table td .btn-edit-table {
+  color: #ffc509;
+}
+.container-page .data-table td .btn-edit-table:hover {
+  scale: 1.5;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
 }
 .container-page .btn-edit {
   color: white;

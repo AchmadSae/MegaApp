@@ -2,11 +2,13 @@
 @import "_var";
 
 
-
+//material style
 .container-page {
     padding: 24px;
-
-
+    .valign-wrapper {
+        height: 50px;
+        margin-top: -20px;
+    }
     .box {
 
         background: white;
@@ -15,8 +17,6 @@
     }
 
     .data-table {
-
-
         tbody {
             display: block;
             height: 63vh;
@@ -40,6 +40,21 @@
 
         td {
             margin-right: 24px;
+            margin-top: 5px;
+            .btn-delete-table {
+                color: red;
+                &:hover{
+                    scale: 1.5;
+                    transition: ease-in-out;
+                }
+            }
+            .btn-edit-table  {
+                color: $main-color;
+                &:hover{
+                    scale: 1.5;
+                    transition: ease-in-out;
+                }
+            }
         }
     }
 

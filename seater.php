@@ -41,7 +41,8 @@
                         <p><?php echo $d['name'] ?></p>
                     </td>
                     <td class="col s2">
-                        <a name="<?php echo $d['id'] ?>" class="modal-trigger edit-trigger" href="#seater-edit">Edit</a> | <a href="process/seater.act?id=<?php echo $d['id'] ?>&action=delete">Delete</a>
+                        <a name="<?php echo $d['id'] ?>" class="modal-trigger edit-trigger" href="#seater-edit"><i class="tiny material-icons btn-edit-table">border_color</i>
+                        </a> | <a href="process/seater.act?id=<?php echo $d['id'] ?>&action=delete"><i class="tiny material-icons btn-delete-table">delete</i></a>
                     </td>
                 </tr>
 
@@ -69,28 +70,6 @@
 
     </div>
 
-    <script>
-        $('.edit-trigger').on('click', function() {
-
-            $('#seater-name').val($(this).parent().parent().children().children('p').text());
-            $('#seater-id').val($(this).attr('name'));
-        })
-
-        $('#seater-name').on('click', function() {
-
-            $(this).select();
-        })
-
-        $('#icon_prefix').on('keyup', function() {
-
-            var value = $(this).val().toLowerCase();
-            $('.table-content').filter(function() {
-
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-            })
-
-        })
-    </script>
 
 
     <?php include "temp/footer.php" ?>

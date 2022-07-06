@@ -9,8 +9,9 @@
 
     <!--Load the AJAX API-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/chart.js"></script>
+    <script type="text/javascript" src="js/product.js"></script>
     <!----======== CSS ======== -->
     <link type="text/css" rel="stylesheet" href="css/headers.css">
     <link type="text/css" rel="stylesheet" href="css/sales.css">
@@ -18,6 +19,7 @@
     <link type="text/css" rel="stylesheet" href="css/catalogue.css">
     <link type="text/css" rel="stylesheet" href="css/detail_catalogue.css">
     <link type="text/css" rel="stylesheet" href="css/product.css">
+    <link rel="text/css" href="css/product.css">
     <!--<title>Dashboard Sidebar Menu</title>-->
 
     <?php include 'php/app.php' ?>
@@ -82,9 +84,7 @@
             </li>
         </ul> -->
     <!-- navbar content here  -->
-
     <div class="wrapper">
-
         <div class="sidebar">
 
             <div class="row side-content">
@@ -171,4 +171,7 @@
                         <li><a href="#!">Logout</a></li>
                     </ul>
                 </div>
-                <!-- next page  ke include di file yang di panggil  -->
+            </div>
+            <!-- div penutup content include topbar  -->
+
+            <!-- next page  ke include di file yang di panggil  -->

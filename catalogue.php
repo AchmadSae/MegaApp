@@ -10,11 +10,11 @@ include "temp/header.php";
     </div>
     <div class="add-product">
         <h4 class="title">Catalogue</h4>
-        <a href="" class="waves_effect waves-light btn">Add New Product</a>
+        <a class="waves-effect waves-light main-btn right"><i class="material-icons left">add</i>Add New Product</a>
     </div>
-    <div class="search-catalogue">
-        <div class="drop">
-            <p class="search">Search</p>
+    <div class="search-catalogue row">
+
+        <div class="drop col s4">
             <div class="input-field">
                 <i class="material-icons prefix">youtube_searched_for</i>
                 <input type="text" id="autocomplete-input" class="autocomplete">
@@ -22,9 +22,9 @@ include "temp/header.php";
             </div>
             <!-- Dropdown Trigger -->
         </div>
-        <div class="sort">
-            <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Sort By : <i class="material-icons">arrow_drop_down</i><input type="text" id="autocomplete-input" class="autocomplete"></a>
-            <!-- Dropdown Structure -->
+        <div class="sort col s4">
+            <label >Sort By :</label>
+            <input class='dropdown-trigger' href='#' data-target='dropdown1' type="text" id="autocomplete-input" class="autocomplete"></a>
             <ul id='dropdown1' class='dropdown-content'>
                 <li><a href="#!">Date</a></li>
                 <li><a href="#!">Delivery</a></li>
@@ -32,7 +32,7 @@ include "temp/header.php";
             </ul>
         </div>
         <!-- radio btn filter data  -->
-        <div class="filter">
+        <div class="filter col s4">
             <p class="mt-2">Order</p>
             <form action="#">
                 <p>
@@ -57,21 +57,25 @@ include "temp/header.php";
                     <div class="card">
                         <div class="card-image">
                             <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
+                            <span class="card-title"></span>
                         </div>
                         <div class="card-content">
                             <p class="color-type">
-                                Grey
+                                ACBDSJKUU
                             </p>
                             <div class="name">
                                 <span>Bono</span>
                                 <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
+                                <div class="spec">
+                                    <p class="bahan">fabric</p>
+                                    <p class="warna">grey</p>
+                                </div>
                             </div>
                             <div class="prices">
                                 <div class="price">
                                     <p class="price">Rp.2,600,000</p>
                                     <p class="price-coret">Rp.2,760,000</p>
+                                    <p class="price-sale">Rp.2,560,000</p>
                                 </div>
                                 <div class="stock">
                                     <p class="pStock">stock <br> 100</p>
@@ -79,27 +83,31 @@ include "temp/header.php";
                             </div>
                         </div>
                         <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
+                            <a class="action" href="detail_catalogue.php">DETAIL</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
+                            <span class="card-title"></span>
                         </div>
                         <div class="card-content">
                             <p class="color-type">
-                                Grey
+                                ACBDSJKUU
                             </p>
                             <div class="name">
                                 <span>Bono</span>
                                 <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
+                                <div class="spec">
+                                    <p class="bahan">fabric</p>
+                                    <p class="warna">grey</p>
+                                </div>
                             </div>
                             <div class="prices">
                                 <div class="price">
                                     <p class="price">Rp.2,600,000</p>
                                     <p class="price-coret">Rp.2,760,000</p>
+                                    <p class="price-sale">Rp.2,560,000</p>
                                 </div>
                                 <div class="stock">
                                     <p class="pStock">stock <br> 100</p>
@@ -107,27 +115,31 @@ include "temp/header.php";
                             </div>
                         </div>
                         <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
+                            <a class="action" href="detail_catalogue.php">DETAIL</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
+                            <span class="card-title"></span>
                         </div>
                         <div class="card-content">
                             <p class="color-type">
-                                Grey
+                                ACBDSJKUU
                             </p>
                             <div class="name">
                                 <span>Bono</span>
                                 <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
+                                <div class="spec">
+                                    <p class="bahan">fabric</p>
+                                    <p class="warna">grey</p>
+                                </div>
                             </div>
                             <div class="prices">
                                 <div class="price">
                                     <p class="price">Rp.2,600,000</p>
                                     <p class="price-coret">Rp.2,760,000</p>
+                                    <p class="price-sale">Rp.2,560,000</p>
                                 </div>
                                 <div class="stock">
                                     <p class="pStock">stock <br> 100</p>
@@ -135,27 +147,31 @@ include "temp/header.php";
                             </div>
                         </div>
                         <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
+                            <a class="action" href="detail_catalogue.php">DETAIL</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
+                            <span class="card-title"></span>
                         </div>
                         <div class="card-content">
                             <p class="color-type">
-                                Grey
+                                ACBDSJKUU
                             </p>
                             <div class="name">
                                 <span>Bono</span>
                                 <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
+                                <div class="spec">
+                                    <p class="bahan">fabric</p>
+                                    <p class="warna">grey</p>
+                                </div>
                             </div>
                             <div class="prices">
                                 <div class="price">
                                     <p class="price">Rp.2,600,000</p>
                                     <p class="price-coret">Rp.2,760,000</p>
+                                    <p class="price-sale">Rp.2,560,000</p>
                                 </div>
                                 <div class="stock">
                                     <p class="pStock">stock <br> 100</p>
@@ -163,63 +179,7 @@ include "temp/header.php";
                             </div>
                         </div>
                         <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
-                        </div>
-                        <div class="card-content">
-                            <p class="color-type">
-                                Grey
-                            </p>
-                            <div class="name">
-                                <span>Bono</span>
-                                <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
-                            </div>
-                            <div class="prices">
-                                <div class="price">
-                                    <p class="price">Rp.2,600,000</p>
-                                    <p class="price-coret">Rp.2,760,000</p>
-                                </div>
-                                <div class="stock">
-                                    <p class="pStock">stock <br> 100</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
-                        </div>
-                        <div class="card-content">
-                            <p class="color-type">
-                                Grey
-                            </p>
-                            <div class="name">
-                                <span>Bono</span>
-                                <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
-                            </div>
-                            <div class="prices">
-                                <div class="price">
-                                    <p class="price">Rp.2,600,000</p>
-                                    <p class="price-coret">Rp.2,760,000</p>
-                                </div>
-                                <div class="stock">
-                                    <p class="pStock">stock <br> 100</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
+                            <a class="action" href="detail_catalogue.php">DETAIL</a>
                         </div>
                     </div>
                 </div>
@@ -229,21 +189,25 @@ include "temp/header.php";
                     <div class="card">
                         <div class="card-image">
                             <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
+                            <span class="card-title"></span>
                         </div>
                         <div class="card-content">
                             <p class="color-type">
-                                Grey
+                                ACBDSJKUU
                             </p>
                             <div class="name">
                                 <span>Bono</span>
                                 <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
+                                <div class="spec">
+                                    <p class="bahan">fabric</p>
+                                    <p class="warna">grey</p>
+                                </div>
                             </div>
                             <div class="prices">
                                 <div class="price">
                                     <p class="price">Rp.2,600,000</p>
                                     <p class="price-coret">Rp.2,760,000</p>
+                                    <p class="price-sale">Rp.2,560,000</p>
                                 </div>
                                 <div class="stock">
                                     <p class="pStock">stock <br> 100</p>
@@ -251,27 +215,31 @@ include "temp/header.php";
                             </div>
                         </div>
                         <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
+                            <a class="action" href="detail_catalogue.php">DETAIL</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
+                            <span class="card-title"></span>
                         </div>
                         <div class="card-content">
                             <p class="color-type">
-                                Grey
+                                ACBDSJKUU
                             </p>
                             <div class="name">
                                 <span>Bono</span>
                                 <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
+                                <div class="spec">
+                                    <p class="bahan">fabric</p>
+                                    <p class="warna">grey</p>
+                                </div>
                             </div>
                             <div class="prices">
                                 <div class="price">
                                     <p class="price">Rp.2,600,000</p>
                                     <p class="price-coret">Rp.2,760,000</p>
+                                    <p class="price-sale">Rp.2,560,000</p>
                                 </div>
                                 <div class="stock">
                                     <p class="pStock">stock <br> 100</p>
@@ -279,27 +247,31 @@ include "temp/header.php";
                             </div>
                         </div>
                         <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
+                            <a class="action" href="detail_catalogue.php">DETAIL</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
+                            <span class="card-title"></span>
                         </div>
                         <div class="card-content">
                             <p class="color-type">
-                                Grey
+                                ACBDSJKUU
                             </p>
                             <div class="name">
                                 <span>Bono</span>
                                 <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
+                                <div class="spec">
+                                    <p class="bahan">fabric</p>
+                                    <p class="warna">grey</p>
+                                </div>
                             </div>
                             <div class="prices">
                                 <div class="price">
                                     <p class="price">Rp.2,600,000</p>
                                     <p class="price-coret">Rp.2,760,000</p>
+                                    <p class="price-sale">Rp.2,560,000</p>
                                 </div>
                                 <div class="stock">
                                     <p class="pStock">stock <br> 100</p>
@@ -307,27 +279,31 @@ include "temp/header.php";
                             </div>
                         </div>
                         <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
+                            <a class="action" href="detail_catalogue.php">DETAIL</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-image">
                             <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
+                            <span class="card-title"></span>
                         </div>
                         <div class="card-content">
                             <p class="color-type">
-                                Grey
+                                ACBDSJKUU
                             </p>
                             <div class="name">
                                 <span>Bono</span>
                                 <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
+                                <div class="spec">
+                                    <p class="bahan">fabric</p>
+                                    <p class="warna">grey</p>
+                                </div>
                             </div>
                             <div class="prices">
                                 <div class="price">
                                     <p class="price">Rp.2,600,000</p>
                                     <p class="price-coret">Rp.2,760,000</p>
+                                    <p class="price-sale">Rp.2,560,000</p>
                                 </div>
                                 <div class="stock">
                                     <p class="pStock">stock <br> 100</p>
@@ -335,71 +311,16 @@ include "temp/header.php";
                             </div>
                         </div>
                         <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
-                        </div>
-                        <div class="card-content">
-                            <p class="color-type">
-                                Grey
-                            </p>
-                            <div class="name">
-                                <span>Bono</span>
-                                <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
-                            </div>
-                            <div class="prices">
-                                <div class="price">
-                                    <p class="price">Rp.2,600,000</p>
-                                    <p class="price-coret">Rp.2,760,000</p>
-                                </div>
-                                <div class="stock">
-                                    <p class="pStock">stock <br> 100</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="images/bono.jpg">
-                            <span class="card-title">ACBDSJKUU</span>
-                        </div>
-                        <div class="card-content">
-                            <p class="color-type">
-                                Grey
-                            </p>
-                            <div class="name">
-                                <span>Bono</span>
-                                <p>sofa 2 dudukan</p>
-                                <p class="bahan">fabric</p>
-                            </div>
-                            <div class="prices">
-                                <div class="price">
-                                    <p class="price">Rp.2,600,000</p>
-                                    <p class="price-coret">Rp.2,760,000</p>
-                                </div>
-                                <div class="stock">
-                                    <p class="pStock">stock <br> 100</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="action">
-                            <a class="" href="detail_catalogue.php">DETAIL</a>
+                            <a class="action" href="detail_catalogue.php">DETAIL</a>
                         </div>
                     </div>
                 </div>
+
             </div>
             <!-- search form  -->
         </div>
     </div>
-    </div>
+
     <!-- operation catalogue  -->
 </section>
 </div>

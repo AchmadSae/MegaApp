@@ -8,8 +8,6 @@ include("temp/header.php");
 
 </section>
 </div>
-<!-- div penutup content include topbar  -->
-</div>
 <!-- div penutup wraper include sidebar  -->
 <?php
 include("temp/footer.php");

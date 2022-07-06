@@ -1,152 +1,177 @@
 @import "_var";
 
 #catalogue {
-    .step {
-        margin-top: 40px;
-    }
+    padding: 24px;
 
     .add-product {
         display: inline-flex;
-
         a {
             position: absolute;
-            background-color: $text-color;
-            color: white;
+            background-color: $main-color;
+            color:$text-color;
             right: 20px;
+            top:120px;
+            padding: 5px;
+            border-radius: 5px;
+            &:hover{
+                color: $main-color;
+                background-color: $text-color;
+            }
         }
     }
 
     .search-catalogue {
-        width: 100%;
         background-color: white;
-        height: 120px;
-        display: flex;
+        height: 100px;
         padding: 10px;
         border-radius: 5px;
         font-size: 12px;
-
         .sort {
-            margin-top: 20px;
-            margin-left: 50px;
+            .dropdown-content {
+                height: auto;
+
+                a {
+                    color: $text-color;
+                    font-size: 12px;
+                }
+            }
         }
 
         .filter {
-            margin-top: 20px;
-            margin-left: 50px;
+            span {
+                font-size: 12px;
+            }
         }
     }
 
     // style card 
     .catalogue-content {
-        margin-top: 10px;
+        .cards {
+            
+            overflow: scroll;
+            height: 100vh;
+            margin-top: 5px;
+            .cards-row {
+                display: flex;
+                justify-content: center;
 
-        .cards-row {
+                .card {
+                    min-width: 150px;
+                    max-width: 250px;
+                    font-size: 12px;
+                    background-color: white;
+                    padding: 12px;
+                    margin: 2px;
+                    min-height: 300px;
+                    max-height: 400px;
 
-            display: flex;
-            justify-content: center;
+                    .card-content {
+                        padding: 0;
 
-            .card {
-                width: 180px;
-                font-size: 10px;
-                background-color: white;
-                padding: 12px;
-                margin: 2px;
-                height: 300px;
-
-                .card-title {
-                    position: absolute;
-                    font-weight: bold;
-                    font-size: 10px;
-                    color: $main-color;
-                    margin-bottom: 130px;
-                }
-
-                .card-content {
-                    padding: 0;
-
-                    .color-type {
-                        background-color: $text-color;
-                        color: white;
-                        padding-left: 10px;
-                    }
-
-                    .name {
-                        padding-left: 10px;
-
-                        span {
-                            font-weight: bold;
-
-                        }
-
-                        p {
-                            opacity: 70%;
-                        }
-
-                        .bahan {
-                            width: 50px;
-                            border-radius: 10px;
-                            color: white;
-                            text-align: center;
+                        .color-type {
                             background-color: $text-color;
+                            color: white;
+                            padding-left: 10px;
+                        }
+
+                        .name {
+                            padding-left: 10px;
+
+                            span {
+                                font-weight: bold;
+
+                            }
+
+                            p {
+                                opacity: 70%;
+                            }
+
+                            .spec {
+                                display: inline-flex;
+
+                                .bahan {
+                                    width: 50px;
+                                    border-radius: 10px;
+                                    color: white;
+                                    text-align: center;
+                                    background-color: $text-color;
+                                }
+
+                                .warna {
+                                    width: 50px;
+                                    border-radius: 10px;
+                                    color: white;
+                                    text-align: center;
+                                    background-color: $text-color;
+                                }
+
+                            }
+                        }
+
+                        .prices {
+                            display: inline-flex;
+                            padding: 10px;
+
+                            .price {
+                                font-weight: bold;
+                            }
+
+                            .price-coret {
+                                opacity: 50%;
+                                font-size: 10px;
+                                text-decoration: line-through;
+                            }
+
+                            .price-sale {
+                                opacity: 50%;
+                                font-size: 10px;
+
+                            }
+
+                        }
+
+                        .stock {
+                            background-color: $text-color;
+                            color: white;
+                            width: 50px;
+                            margin-left: 80px;
+                            text-align: center;
                         }
                     }
 
-                    .prices {
-                        display: inline-flex;
-                        padding: 10px;
 
-                        .price {
-                            font-weight: bold;
-                        }
-
-                        .price-coret {
-                            opacity: 50%;
-                            text-decoration: line-through;
-                        }
-                    }
-
-                    .stock {
+                    .action {
+                        width: 100%;
                         background-color: $text-color;
-                        color: white;
-                        width: 50px;
-                        margin-left: 30px;
                         text-align: center;
+                        border-radius: 5px;
                     }
+
+                    a {
+                        text-decoration: none;
+                        font-weight: bold;
+                        color: $main-color;
+                    }
+
+
                 }
-
-
-                .action {
-                    width: 100%;
-                    background-color: $text-color;
-                    text-align: center;
-                    border-radius: 5px;
-                }
-
-                a {
-                    text-decoration: none;
-                    font-weight: bold;
-                    color: $main-color;
-                }
-
-
             }
+
         }
     }
 }
 
 // style untuk edit catalogue 
 #edit_catalogue {
-
+    padding: 24px;
     .title {
-        margin-top: 40px;
-        font-size: 10px;
+        font-size: 12px;
     }
-
     .edits {
+        padding: 10px;
         .names {
             background-color: white;
             max-width: 300px;
-
             .list {
                 .input-field {
 
@@ -163,7 +188,6 @@
             .material {
                 .drop {
                     display: inline-flex;
-                    margin-top: 10px;
                     width: 150px;
 
                     span {

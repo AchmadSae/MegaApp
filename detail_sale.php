@@ -140,7 +140,7 @@ include "temp/header.php";
                                     <li class="kanan">1 Juni 2022 - 15 Juni 2022</li>
                                 </ul>
                             </div>
-                            <div class="total">
+                            <div class="totals">
                                 <ul>
                                     <li class="kiri">Total sale quantity</li>
                                     <li class="kiri">This month sale quantity</li>
@@ -238,7 +238,7 @@ include "temp/header.php";
                     </ul>
                 </div>
                 <div class="operation-btn">
-                    <a class="waves-effect waves-light btn edit">Edit</a> <a class="waves-effect waves-light btn hapus">Hapus</a>
+                    <a class="waves-effect waves-light btn-small edit">Edit</a> <a class="waves-effect waves-light btn-small hapus">Hapus</a>
                 </div>
             </div>
         </div>

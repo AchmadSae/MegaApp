@@ -37,7 +37,7 @@ include "temp/header.php";
             <td>Rp. 1.050.300</td>
             <td>online payment</td>
             <td>
-              <a class="btn yellow" href="detail_sale.php">waiting</a>
+              <a class="btn-small yellow" href="detail_sale.php">waiting</a>
             </td>
           </tr>
           <tr>
@@ -49,7 +49,7 @@ include "temp/header.php";
             <td>Rp. 1.050.300</td>
             <td>online payment</td>
             <td>
-              <a class="btn yellow" href="detail_sale.php">waiting</a>
+              <a class="btn-small yellow" href="detail_sale.php">waiting</a>
             </td>
           </tr>
         </tbody>

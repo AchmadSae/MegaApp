@@ -1,7 +1,7 @@
 /* Google Font Import - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
-#catalogue .step {
-  margin-top: 40px;
+#catalogue {
+  padding: 24px;
 }
 #catalogue .add-product {
   display: -webkit-inline-box;
@@ -10,33 +10,40 @@
 }
 #catalogue .add-product a {
   position: absolute;
-  background-color: #202332;
-  color: white;
+  background-color: #ffc509;
+  color: #202332;
   right: 20px;
+  top: 120px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#catalogue .add-product a:hover {
+  color: #ffc509;
+  background-color: #202332;
 }
 #catalogue .search-catalogue {
-  width: 100%;
   background-color: white;
-  height: 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 100px;
   padding: 10px;
   border-radius: 5px;
   font-size: 12px;
 }
-#catalogue .search-catalogue .sort {
-  margin-top: 20px;
-  margin-left: 50px;
+#catalogue .search-catalogue .sort .dropdown-content {
+  height: auto;
 }
-#catalogue .search-catalogue .filter {
-  margin-top: 20px;
-  margin-left: 50px;
+#catalogue .search-catalogue .sort .dropdown-content a {
+  color: #202332;
+  font-size: 12px;
 }
-#catalogue .catalogue-content {
-  margin-top: 10px;
+#catalogue .search-catalogue .filter span {
+  font-size: 12px;
 }
-#catalogue .catalogue-content .cards-row {
+#catalogue .catalogue-content .cards {
+  overflow: scroll;
+  height: 100vh;
+  margin-top: 5px;
+}
+#catalogue .catalogue-content .cards .cards-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,80 +51,97 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-#catalogue .catalogue-content .cards-row .card {
-  width: 180px;
-  font-size: 10px;
+#catalogue .catalogue-content .cards .cards-row .card {
+  min-width: 150px;
+  max-width: 250px;
+  font-size: 12px;
   background-color: white;
   padding: 12px;
   margin: 2px;
-  height: 300px;
+  min-height: 300px;
+  max-height: 400px;
 }
-#catalogue .catalogue-content .cards-row .card .card-title {
-  position: absolute;
-  font-weight: bold;
-  font-size: 10px;
-  color: #ffc509;
-  margin-bottom: 130px;
-}
-#catalogue .catalogue-content .cards-row .card .card-content {
+#catalogue .catalogue-content .cards .cards-row .card .card-content {
   padding: 0;
 }
-#catalogue .catalogue-content .cards-row .card .card-content .color-type {
+#catalogue .catalogue-content .cards .cards-row .card .card-content .color-type {
   background-color: #202332;
   color: white;
   padding-left: 10px;
 }
-#catalogue .catalogue-content .cards-row .card .card-content .name {
+#catalogue .catalogue-content .cards .cards-row .card .card-content .name {
   padding-left: 10px;
 }
-#catalogue .catalogue-content .cards-row .card .card-content .name span {
+#catalogue .catalogue-content .cards .cards-row .card .card-content .name span {
   font-weight: bold;
 }
-#catalogue .catalogue-content .cards-row .card .card-content .name p {
+#catalogue .catalogue-content .cards .cards-row .card .card-content .name p {
   opacity: 70%;
 }
-#catalogue .catalogue-content .cards-row .card .card-content .name .bahan {
+#catalogue .catalogue-content .cards .cards-row .card .card-content .name .spec {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+#catalogue .catalogue-content .cards .cards-row .card .card-content .name .spec .bahan {
   width: 50px;
   border-radius: 10px;
   color: white;
   text-align: center;
   background-color: #202332;
 }
-#catalogue .catalogue-content .cards-row .card .card-content .prices {
+#catalogue .catalogue-content .cards .cards-row .card .card-content .name .spec .warna {
+  width: 50px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  background-color: #202332;
+}
+#catalogue .catalogue-content .cards .cards-row .card .card-content .prices {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 10px;
 }
-#catalogue .catalogue-content .cards-row .card .card-content .prices .price {
+#catalogue .catalogue-content .cards .cards-row .card .card-content .prices .price {
   font-weight: bold;
 }
-#catalogue .catalogue-content .cards-row .card .card-content .prices .price-coret {
+#catalogue .catalogue-content .cards .cards-row .card .card-content .prices .price-coret {
   opacity: 50%;
+  font-size: 10px;
   text-decoration: line-through;
 }
-#catalogue .catalogue-content .cards-row .card .card-content .stock {
+#catalogue .catalogue-content .cards .cards-row .card .card-content .prices .price-sale {
+  opacity: 50%;
+  font-size: 10px;
+}
+#catalogue .catalogue-content .cards .cards-row .card .card-content .stock {
   background-color: #202332;
   color: white;
   width: 50px;
-  margin-left: 30px;
+  margin-left: 80px;
   text-align: center;
 }
-#catalogue .catalogue-content .cards-row .card .action {
+#catalogue .catalogue-content .cards .cards-row .card .action {
   width: 100%;
   background-color: #202332;
   text-align: center;
   border-radius: 5px;
 }
-#catalogue .catalogue-content .cards-row .card a {
+#catalogue .catalogue-content .cards .cards-row .card a {
   text-decoration: none;
   font-weight: bold;
   color: #ffc509;
 }
 
+#edit_catalogue {
+  padding: 24px;
+}
 #edit_catalogue .title {
-  margin-top: 40px;
-  font-size: 10px;
+  font-size: 12px;
+}
+#edit_catalogue .edits {
+  padding: 10px;
 }
 #edit_catalogue .edits .names {
   background-color: white;
@@ -133,7 +157,6 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-top: 10px;
   width: 150px;
 }
 #edit_catalogue .edits .names .material .drop span {

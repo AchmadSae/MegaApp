@@ -2,15 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 #detail_catalogue {
   font-family: "Poppins", serif;
-}
-#detail_catalogue .alls {
-  margin-top: 40px;
+  padding: 24px;
 }
 #detail_catalogue .alls .detail {
-  height: 100vh;
-  font-size: 10px;
+  height: 110vh;
+  font-size: 12px;
   background-color: white;
-  padding: 1px;
   width: 200px;
 }
 #detail_catalogue .alls .detail img {
@@ -32,7 +29,6 @@
 }
 #detail_catalogue .alls .detail .desc .kanan {
   margin: 5px;
-  margin-left: 25px;
 }
 #detail_catalogue .alls .detail .discont .listDisc {
   background-color: #202332;
@@ -49,8 +45,7 @@
   font-size: 10px;
   background-color: white;
   padding: 5px;
-  padding-top: 15px;
-  height: 100vh;
+  height: 110vh;
 }
 #detail_catalogue .alls .crud .vendor p {
   opacity: 50%;
@@ -80,7 +75,7 @@
   margin: 5px;
 }
 #detail_catalogue .alls .crud .btns .btnEdit {
-  font-size: 12px;
+  font-size: 10px;
   background-color: #202332;
   color: white;
 }
@@ -105,6 +100,9 @@
 #detail_catalogue .alls .grafYears .graf .chart {
   width: 100%;
 }
+#detail_catalogue .alls .grafYears .graf .tables {
+  padding: 5px;
+}
 #detail_catalogue .alls .grafYears .graf .tables thead {
   background-color: #202332;
   color: white;
@@ -128,10 +126,12 @@
 }
 #detail_catalogue .alls .grafMonth .graf {
   font-size: 10px;
-  margin-left: 2px;
 }
 #detail_catalogue .alls .grafMonth .graf .chart {
   width: 100%;
+}
+#detail_catalogue .alls .grafMonth .tables {
+  padding: 5px;
 }
 #detail_catalogue .alls .grafMonth .tables thead {
   background-color: #202332;

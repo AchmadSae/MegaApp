@@ -41,7 +41,7 @@
                         <p><?php echo $d['name'] ?></p>
                     </td>
                     <td class="col s2">
-                        <a name="<?php echo $d['id'] ?>" class="modal-trigger edit-trigger" href="#color-edit">Edit</a> | <a href="process/color.act?id=<?php echo $d['id'] ?>&action=delete">Delete</a>
+                        <a name="<?php echo $d['id'] ?>" class="modal-trigger edit-trigger" href="#color-edit"><i class="tiny material-icons btn-edit-table">border_color</i></a> | <a href="process/color.act?id=<?php echo $d['id'] ?>&action=delete"><i class="tiny material-icons btn-delete-table">delete</i> </a>
                     </td>
                 </tr>
 
@@ -69,7 +69,7 @@
 
     </div>
 
-    <script>
+    <!-- <script>
         $('.edit-trigger').on('click', function() {
 
             $('#color-name').val($(this).parent().parent().children().children('p').text());
@@ -90,7 +90,7 @@
             })
 
         })
-    </script>
+    </script> -->
 
 
     <?php include "temp/footer.php" ?>

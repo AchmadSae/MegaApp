@@ -45,7 +45,7 @@
                         <p><?php echo $d['country'] ?></p>
                     </td>
                     <td class="col s2 valign-wrapper">
-                        <a class="waves-effect waves-light btn"><i class="material-icons left">search</i>View</a>
+                        <a class="waves-effect waves-light btn-small"  style="background-color:#202332;"><i class="material-icons left">search</i>View</a>
                     </td>
                 </tr>
 
@@ -72,29 +72,5 @@
         </form>
 
     </div>
-
-    <script>
-        $('.edit-trigger').on('click', function() {
-
-            $('#vendor-name').val($(this).parent().parent().children().children('p').text());
-            $('#vendor-id').val($(this).attr('name'));
-        })
-
-        $('#vendor-name').on('click', function() {
-
-            $(this).select();
-        })
-
-        $('#icon_prefix').on('keyup', function() {
-
-            var value = $(this).val().toLowerCase();
-            $('.table-content').filter(function() {
-
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-            })
-
-        })
-    </script>
-
 
     <?php include "temp/footer.php" ?>
